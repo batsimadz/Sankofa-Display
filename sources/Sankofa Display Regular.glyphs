@@ -1,11 +1,8 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"æ"
-);
 date = "2023-10-02 05:34:29 +0000";
-familyName = "New Font";
+familyName = "Sankofa Display";
 fontMaster = (
 {
 id = m01;
