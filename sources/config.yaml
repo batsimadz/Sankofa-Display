@@ -1,7 +1,4 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
-axisOrder:
-  - wght
-  - ital
-familyName: Rubik
+  - Sankofa Display Regular.glyphs
+  
+familyName: Sankofa Display
