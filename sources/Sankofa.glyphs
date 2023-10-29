@@ -1,8 +1,23 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+}
+);
 date = "2023-10-02 05:34:29 +0000";
-familyName = "Sankofa";
+familyName = Sankofa;
 fontMaster = (
 {
 id = m01;
@@ -19940,6 +19955,14 @@ width = 211;
 unicode = 731;
 }
 );
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
 metrics = (
 {
 type = ascender;
@@ -19960,6 +19983,55 @@ type = descender;
 type = "italic angle";
 }
 );
+properties = (
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Batsirai Madzonga";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Batsirai Madzonga";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://www.madzonga.com";
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 Sankofa Display (https://github.com/batsimadz/Sankofa)";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+}
+);
+settings = {
+disablesNiceNames = 1;
+};
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 0;
