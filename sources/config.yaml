@@ -1,7 +1,5 @@
 sources:
   - Sankofa.glyphs
-axisOrder:
-  - wght
 familyName: Sankofa
 autohintTTF: True
 buildWebfont: false
