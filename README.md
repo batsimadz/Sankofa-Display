@@ -36,7 +36,7 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 ----
 
 
-# My Font
+# Sankofa
 
 [![][Fontbakery]](https://batsimadz.github.io/test/fontbakery/fontbakery-report.html)
 [![][Universal]](https://batsimadz.github.io/test/fontbakery/fontbakery-report.html)
@@ -50,7 +50,7 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbatsimadz%2Ftest%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbatsimadz%2Ftest%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+Sankofa Display is a captivating African typeface that draws inspiration from a rich tapestry of African art styles, with a particular focus on straight-line geometric designs. This typeface embodies the essence of Africa's diverse cultural heritage, blending elements from various artistic traditions.
 
 Don't hesitate to create images!
 
@@ -58,7 +58,16 @@ Don't hesitate to create images!
 
 ## About
 
-Description of you and/or organisation goes here.
+After graduating from the University of Cape Town with a BSc in Computer Science, Batsi took his enthusiasm for digital platforms and entrepreneurship to start his own design agency. This period was instrumental in enhancing his skills set ranging from creative campaign ideation, software/website development, product design, and business development. 
+ 
+His success then led him to roles within Africa and the Middle East where he now heads the design department at Abu Dhabi Islamic Bank in the capacity of Assistant Vice President, Head of Design & Experience.
+
+His recent book available on Amazon, Devign Intervention is a collection of actionable tips on how he went from a graphic designer to Head of Design by the age of 35! It’s an easy read that allows you to not only level up your craft but add value to your company in new and tangible ways.
+
+Links:
+Website: https://www.madzonga.com
+Book: https://www.amazon.com/dp/B0C91DKWK6
+LinkedIn: https://www.linkedin.com/in/batsi
 
 ## Building
 
@@ -78,9 +87,8 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+**15 December 2023. Version 1.0**
+- Font published
 
 ## License
 
