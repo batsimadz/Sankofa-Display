@@ -170,13 +170,13 @@ ul {
 <h3>Checking OS/2 achVendID.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vendor_id</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
 [code: unknown]</p>
 </span></li></ul></div></details>
 <h3>Check Google Fonts glyph coverage.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/glyph_coverage</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
 <pre><code>- 0x0030 (DIGIT ZERO)
 
 
@@ -346,23 +346,23 @@ ul {
 <h3>Check for codepoints not covered by METADATA subsets.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/metadata/unreachable_subsetting</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
 any subsets defined in the font's metadata file, and will never
 be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, tai-le, coptic, math, syriac, malayalam, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, coptic, math, tai-le, syriac, tifinagh, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
@@ -374,7 +374,7 @@ definitions.</p>
 <h3>Check license file has good copyright string.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/license/OFL_copyright</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file is:</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>First line in license file is:</p>
 <p>&quot;copyright 2023 sankofa display (https://github.com/batsimadz/sankofa-display)&quot;</p>
 <p>which does not match the expected format, similar to:</p>
 <p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot; [code: bad-format]</p>
@@ -382,47 +382,47 @@ definitions.</p>
 <h3>Copyright notices match canonical pattern in fonts</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/font_copyright</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
 But instead we have got:
-&quot;Copyright 2023 Sankofa Display (https://github.com/batsimadz/Sankofa)&quot; [code: bad-notice-format]</p>
+&quot;Copyright 2023 Sankofa Display (https://github.com/batsimadz/Sankofa-Display)&quot; [code: bad-notice-format]</p>
 </span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vertical_metrics</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.sTypoLineGap is &quot;200&quot; it should be 0 [code: bad-OS/2.sTypoLineGap]</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.sTypoLineGap is &quot;200&quot; it should be 0 [code: bad-OS/2.sTypoLineGap]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/meta/script_lang_tags</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
 <span class='section__emoji'>🔥🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
 <h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1041, but got 1000 instead [code: ascent]</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1041, but got 1000 instead [code: ascent]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 220, but got 200 instead [code: descent]</p>
 </span></li></ul></div></details>
 <h3>Checking OS/2 Metrics match hhea Metrics.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/os2_metrics_match_hhea</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (800) and hhea ascent (1000) must be equal. [code: ascender]</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (800) and hhea ascent (1000) must be equal. [code: ascender]</p>
 </span></li></ul></div></details>
 <h3>Do we have the latest version of FontBakery installed?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/fontbakery_version</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.10.1, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.10.1, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
 </span></li></ul></div></details>
 <h3>Font contains glyphs for whitespace characters?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/whitespace_glyphs</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
 </span></li></ul></div></details>
 <h3>Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents)</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/legacy_accents</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph &quot;Abreve&quot; has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph &quot;Abreve&quot; has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph &quot;Aogonek&quot; has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph &quot;Atilde&quot; has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph &quot;Eogonek&quot; has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]</p>
@@ -455,7 +455,7 @@ But instead we have got:
 <h3>Check font contains no unreachable glyphs</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/unreachable_glyphs</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- uni004A0301
 
 - uni006A0301
@@ -481,7 +481,7 @@ But instead we have got:
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/contour_count</div>
 
-<details><summary>🔥 Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs have no contours even though they were expected to have some:</p>
+<details><summary>🔥 SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs have no contours even though they were expected to have some:</p>
 <pre><code>- Glyph name: germandbls	Expected: 1
 
 - Glyph name: uni1E9E	Expected: 1
@@ -1226,21 +1226,21 @@ But instead we have got:
 <h3>Checking Vertical Metric Linegaps.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/linegaps</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
 </span></li></ul></div></details>
 <h2>Section: fontbakery.profiles.gpos</h2>
 <span class='section__emoji'>⚠️</span>
 <h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/gpos_kerning_info</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
 </span></li></ul></div></details>
 <h2>Section: Outline Correctness Checks</h2>
 <span class='section__emoji'>⚠️⚠️</span>
 <h3>Do any segments have colinear vectors?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_colinear_vectors</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
 <pre><code>* M (U+004D): L&lt;&lt;633.0,303.0&gt;--&lt;634.0,315.0&gt;&gt; -&gt; L&lt;&lt;634.0,315.0&gt;--&lt;634.0,616.0&gt;&gt;
 
 * OE (U+0152): L&lt;&lt;446.0,3.0&gt;--&lt;444.0,3.0&gt;&gt; -&gt; L&lt;&lt;444.0,3.0&gt;--&lt;412.0,3.0&gt;&gt;
@@ -1261,7 +1261,7 @@ But instead we have got:
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_semi_vertical</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
 <pre><code>* AE (U+00C6): L&lt;&lt;391.0,180.0&gt;--&lt;392.0,304.0&gt;&gt;
 
 * D (U+0044): L&lt;&lt;105.0,329.0&gt;--&lt;104.0,94.0&gt;&gt;
@@ -1348,15 +1348,15 @@ But instead we have got:
 <h3>Ensure dotted circle glyph is present and can attach marks.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/dotted_circle</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
 </span></li></ul></div></details>
 <h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/soft_dotted</div>
 
-<details><summary>⚠️ Sankofa-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<details><summary>⚠️ SankofaDisplay-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĩ ĭ i̇ ỉ ǐ i̒ ĩ̛ ĭ̛ i̛̇ ỉ̛ i̛̊ i̛̋ ǐ̛ i̛̒ ị̃ ị̆ ị̇ ị̉ ị̊ ị̋</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Dutch (Latn, 31,709,104 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Lithuanian (Latn, 2,357,094 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
