@@ -1,3 +1,7 @@
 sources:
   - Sankofa.glyphs
 familyName: Sankofa
+autohintTTF: True
+buildWebfont: false
+buildOTF: false
+buildStatic: false
