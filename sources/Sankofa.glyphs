@@ -49,7 +49,7 @@ value = 1;
 }
 );
 date = "2023-10-02 05:34:29 +0000";
-familyName = Sankofa;
+familyName = "Sankofa Display";
 featurePrefixes = (
 {
 automatic = 1;
@@ -20088,7 +20088,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 Sankofa Display (https://github.com/batsimadz/Sankofa)";
+value = "Copyright 2023 Sankofa Display (https://github.com/batsimadz/Sankofa-Display)";
 }
 );
 },
