@@ -14,9 +14,7 @@
 
 Sankofa Display is a captivating African typeface that draws inspiration from a rich tapestry of African art styles, with a particular focus on straight-line geometric designs. This typeface embodies the essence of Africa's diverse cultural heritage, blending elements from various artistic traditions.
 
-Don't hesitate to create images!
-
-![Sample Image](documentation/image1.png)
+![Sample Image](documentation/preview.jpeg)
 
 ## About
 
