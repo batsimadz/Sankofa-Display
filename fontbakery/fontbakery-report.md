@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[21] SankofaDisplay-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright">com.google.fonts/check/license/OFL_copyright</a>)</summary><div>
+<details><summary><b>[20] SankofaDisplay-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright">com.google.fonts/check/license/OFL_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** First line in license file is:
@@ -35,10 +35,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
-
-
-* 🔥 **FAIL** The '.notdef' glyph should contain a drawing, but it is blank. [code: notdef-is-blank]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -99,6 +95,7 @@ But instead we have got:
 * 🔥 **FAIL** Glyph "iogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "itilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "uni1E2D" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni026B" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ntilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "uni1ED7" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "uni1EE1" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
@@ -134,117 +131,9 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
 
-	- Glyph name: ordfeminine	Expected: 2 or 3
-
-	- Glyph name: kgreenlandic	Expected: 1 or 2
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: uni0186	Expected: 1
-
-	- Glyph name: uni018F	Expected: 2
-
 	- Glyph name: uni0190	Expected: 1
 
-	- Glyph name: Gammalatin	Expected: 2
-
-	- Glyph name: uni0197	Expected: 1
-
-	- Glyph name: uni019B	Expected: 1
-
-	- Glyph name: Upsilonlatin	Expected: 1
-
-	- Glyph name: uni01B7	Expected: 1
-
-	- Glyph name: uni01E4	Expected: 1
-
-	- Glyph name: uni01E5	Expected: 2
-
-	- Glyph name: uni01EE	Expected: 2
-
-	- Glyph name: uni01EF	Expected: 2
-
-	- Glyph name: uni023C	Expected: 2
-
-	- Glyph name: uni023E	Expected: 2
-
-	- Glyph name: uni0241	Expected: 1
-
-	- Glyph name: uni0246	Expected: 3
-
-	- Glyph name: uni0247	Expected: 4
-
-	- Glyph name: uni0259	Expected: 2
-
-	- Glyph name: uni0292	Expected: 1
-
-	- Glyph name: uni02B9	Expected: 1
-
-	- Glyph name: uni02BE	Expected: 1
-
-	- Glyph name: uni02BF	Expected: 1
-
-	- Glyph name: uni02C8	Expected: 1
-
-	- Glyph name: lambda	Expected: 1
-
-	- Glyph name: chi	Expected: 1
-
-	- Glyph name: uni1E2A	Expected: 2
-
-	- Glyph name: chi	Expected: 1
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: kgreenlandic	Expected: 1 or 2
-
-	- Glyph name: lambda	Expected: 1
-
-	- Glyph name: ordfeminine	Expected: 2 or 3
-
-	- Glyph name: uni0186	Expected: 1
-
-	- Glyph name: uni018F	Expected: 2
-
 	- Glyph name: uni0190	Expected: 1
-
-	- Glyph name: uni0197	Expected: 1
-
-	- Glyph name: uni019B	Expected: 1
-
-	- Glyph name: uni01B7	Expected: 1
-
-	- Glyph name: uni01E4	Expected: 1
-
-	- Glyph name: uni01E5	Expected: 2
-
-	- Glyph name: uni01EE	Expected: 2
-
-	- Glyph name: uni01EF	Expected: 2
-
-	- Glyph name: uni023C	Expected: 2
-
-	- Glyph name: uni023E	Expected: 2
-
-	- Glyph name: uni0241	Expected: 1
-
-	- Glyph name: uni0246	Expected: 3
-
-	- Glyph name: uni0247	Expected: 4
-
-	- Glyph name: uni0259	Expected: 2
-
-	- Glyph name: uni0292	Expected: 1
-
-	- Glyph name: uni02B9	Expected: 1
-
-	- Glyph name: uni02BE	Expected: 1
-
-	- Glyph name: uni02BF	Expected: 1
-
-	- Glyph name: uni02C8	Expected: 1
-
-	- Glyph name: uni1E2A	Expected: 2
  [code: no-contour]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
@@ -258,11 +147,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: zero	Contours detected: 4	Expected: 2 or 3
 
+	- Glyph name: one	Contours detected: 3	Expected: 1
+
 	- Glyph name: two	Contours detected: 3	Expected: 1
+
+	- Glyph name: three	Contours detected: 3	Expected: 1
 
 	- Glyph name: four	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: five	Contours detected: 3	Expected: 1
+
+	- Glyph name: six	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: seven	Contours detected: 3	Expected: 1
 
@@ -550,6 +445,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0136	Contours detected: 5	Expected: 2 or 3
 
+	- Glyph name: kgreenlandic	Contours detected: 4	Expected: 1 or 2
+
 	- Glyph name: Lacute	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni013B	Contours detected: 3	Expected: 2
@@ -563,6 +460,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 3	Expected: 2
+
+	- Glyph name: eng	Contours detected: 3	Expected: 1
 
 	- Glyph name: Omacron	Contours detected: 5	Expected: 3
 
@@ -648,6 +547,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Zcaron	Contours detected: 4	Expected: 2
 
+	- Glyph name: uni0186	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni018F	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: Ohorn	Contours detected: 5	Expected: 2 or 3
 
 	- Glyph name: ohorn	Contours detected: 5	Expected: 2
@@ -655,6 +560,12 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uhorn	Contours detected: 7	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 4	Expected: 1
+
+	- Glyph name: Upsilonlatin	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni01B7	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni01C3	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
 
@@ -696,6 +607,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01E3	Contours detected: 6	Expected: 4
 
+	- Glyph name: uni01E4	Contours detected: 5	Expected: 1
+
+	- Glyph name: uni01E5	Contours detected: 5	Expected: 2
+
 	- Glyph name: Gcaron	Contours detected: 5	Expected: 2
 
 	- Glyph name: gcaron	Contours detected: 5	Expected: 3 or 4
@@ -711,6 +626,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01EC	Contours detected: 6	Expected: 3
 
 	- Glyph name: uni01ED	Contours detected: 6	Expected: 3
+
+	- Glyph name: uni01EE	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni01EF	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni01F0	Contours detected: 3	Expected: 2
 
@@ -794,11 +713,27 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0232	Contours detected: 4	Expected: 2
 
+	- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
 	- Glyph name: uni0237	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 5	Expected: 3
 
+	- Glyph name: uni023C	Contours detected: 3	Expected: 2
+
 	- Glyph name: uni023D	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni023E	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0241	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0246	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni0247	Contours detected: 6	Expected: 4
+
+	- Glyph name: uni0259	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0292	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni02B7	Contours detected: 4	Expected: 1
 
@@ -807,6 +742,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E00	Contours detected: 7	Expected: 4
+
+	- Glyph name: uni1E01	Contours detected: 6	Expected: 4
 
 	- Glyph name: uni1E02	Contours detected: 8	Expected: 4
 
@@ -817,6 +754,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E09	Contours detected: 5	Expected: 2
 
 	- Glyph name: uni1E0A	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E0B	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni1E0C	Contours detected: 5	Expected: 3
 
@@ -847,6 +786,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E24	Contours detected: 6	Expected: 2
 
 	- Glyph name: uni1E25	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2A	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni1E2B	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E36	Contours detected: 3	Expected: 2
 
@@ -1120,6 +1063,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni2126	Contours detected: 3	Expected: 1
+
 	- Glyph name: arrowboth	Contours detected: 2	Expected: 1
 
 	- Glyph name: A	Contours detected: 5	Expected: 2
@@ -1386,6 +1331,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: emacron	Contours detected: 5	Expected: 3
 
+	- Glyph name: eng	Contours detected: 3	Expected: 1
+
 	- Glyph name: eogonek	Contours detected: 5	Expected: 2
 
 	- Glyph name: eth	Contours detected: 3	Expected: 2
@@ -1420,6 +1367,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
 
+	- Glyph name: kgreenlandic	Contours detected: 4	Expected: 1 or 2
+
 	- Glyph name: m	Contours detected: 2	Expected: 1
 
 	- Glyph name: n	Contours detected: 2	Expected: 1
@@ -1452,6 +1401,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: omacron	Contours detected: 5	Expected: 3
 
+	- Glyph name: one	Contours detected: 3	Expected: 1
+
 	- Glyph name: otilde	Contours detected: 5	Expected: 3
 
 	- Glyph name: paragraph	Contours detected: 5	Expected: 1, 2 or 3
@@ -1478,7 +1429,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: seven	Contours detected: 3	Expected: 1
 
+	- Glyph name: six	Contours detected: 4	Expected: 1 or 2
+
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: three	Contours detected: 3	Expected: 1
 
 	- Glyph name: two	Contours detected: 3	Expected: 1
 
@@ -1513,6 +1468,16 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0156	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0186	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni018F	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01B7	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni01C3	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni01CD	Contours detected: 6	Expected: 3
 
@@ -1554,6 +1519,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01E3	Contours detected: 6	Expected: 4
 
+	- Glyph name: uni01E4	Contours detected: 5	Expected: 1
+
+	- Glyph name: uni01E5	Contours detected: 5	Expected: 2
+
 	- Glyph name: uni01E8	Contours detected: 5	Expected: 2
 
 	- Glyph name: uni01E9	Contours detected: 3	Expected: 2
@@ -1561,6 +1530,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01EC	Contours detected: 6	Expected: 3
 
 	- Glyph name: uni01ED	Contours detected: 6	Expected: 3
+
+	- Glyph name: uni01EE	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni01EF	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni01F0	Contours detected: 3	Expected: 2
 
@@ -1600,15 +1573,33 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0232	Contours detected: 4	Expected: 2
 
+	- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
 	- Glyph name: uni0237	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 5	Expected: 3
 
+	- Glyph name: uni023C	Contours detected: 3	Expected: 2
+
 	- Glyph name: uni023D	Contours detected: 3	Expected: 1
+
+	- Glyph name: uni023E	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni0241	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0246	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni0247	Contours detected: 6	Expected: 4
+
+	- Glyph name: uni0259	Contours detected: 4	Expected: 2
+
+	- Glyph name: uni0292	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E00	Contours detected: 7	Expected: 4
+
+	- Glyph name: uni1E01	Contours detected: 6	Expected: 4
 
 	- Glyph name: uni1E02	Contours detected: 8	Expected: 4
 
@@ -1619,6 +1610,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E09	Contours detected: 5	Expected: 2
 
 	- Glyph name: uni1E0A	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni1E0B	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni1E0C	Contours detected: 5	Expected: 3
 
@@ -1645,6 +1638,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E24	Contours detected: 6	Expected: 2
 
 	- Glyph name: uni1E25	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E2A	Contours detected: 6	Expected: 2
+
+	- Glyph name: uni1E2B	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E36	Contours detected: 3	Expected: 2
 
@@ -1894,6 +1891,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni2126	Contours detected: 3	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 4	Expected: 1
 
 	- Glyph name: uring	Contours detected: 5	Expected: 3
@@ -2033,12 +2032,6 @@ The following glyphs do not have the recommended number of contours:
  [code: missing-codepoints]
 * ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
-	- 0x1E2B (LATIN SMALL LETTER H WITH BREVE BELOW)
-
-
-	- 0x0233 (LATIN SMALL LETTER Y WITH MACRON)
-
-
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
 
 
@@ -2065,20 +2058,21 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, coptic, tai-le, math, syriac, malayalam, canadian-aboriginal, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, syriac, math, tifinagh, malayalam, tai-le, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -2093,14 +2087,14 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, gothic, cherokee, tifinagh
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, cherokee, syriac, gothic, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
- * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math
  * U+1DBB MODIFIER LETTER SMALL Z: not included in any glyphset definition
  * U+1DBF MODIFIER LETTER SMALL THETA: not included in any glyphset definition
  * U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition
@@ -2108,8 +2102,30 @@ The following glyphs do not have the recommended number of contours:
  * U+1DC6 COMBINING MACRON-GRAVE: not included in any glyphset definition
  * U+1DC7 COMBINING ACUTE-MACRON: not included in any glyphset definition
  * U+1DCA COMBINING LATIN SMALL LETTER R BELOW: not included in any glyphset definition
+ * U+2021 DOUBLE DAGGER: try adding adlam
  * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
+ * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
+ * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
+ * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
+ * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
+ * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
+ * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
+ * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
+ * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
+ * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
+ * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
+ * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
+ * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
+ * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
+ * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
+ * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
+ * U+2126 OHM SIGN: not included in any glyphset definition
  * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
+ * U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition
+ * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
+ * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
+ * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
  * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
  * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
  * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math
@@ -2129,7 +2145,7 @@ The following glyphs do not have the recommended number of contours:
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: tai-viet, coptic, siddham, sharada, soyombo, batak, sogdian, gujarati, duployan, syloti-nagri, brahmi, javanese, thai, tirhuta, khudawadi, buhid, devanagari, symbols, mende-kikakui, gunjala-gondi, tamil, balinese, nko, tifinagh, tagalog, kayah-li, bengali, gurmukhi, zanabazar-square, chakma, phags-pa, newa, buginese, mahajani, hebrew, meetei-mayek, khmer, takri, old-permic, marchen, new-tai-lue, lepcha, yi, cham, syriac, wancho, oriya, tibetan, myanmar, grantha, adlam, thaana, kannada, caucasian-albanian, tai-le, bassa-vah, khojki, manichaean, malayalam, hanunoo, mongolian, masaram-gondi, kharoshthi, telugu, hanifi-rohingya, ahom, music, bhaiksuki, kaithi, sinhala, dogra, pahawh-hmong, mandaic, tagbanwa, math, lao, limbu, psalter-pahlavi, miao, rejang, elbasan, sundanese, modi, osage
+ * U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, meetei-mayek, khudawadi, modi, sharada, osage, tifinagh, tirhuta, hanifi-rohingya, phags-pa, lao, elbasan, tagbanwa, kaithi, thaana, thai, dogra, mandaic, sogdian, adlam, math, sinhala, bengali, newa, siddham, cham, kayah-li, mahajani, tagalog, masaram-gondi, chakma, gunjala-gondi, yi, myanmar, coptic, buhid, gurmukhi, oriya, soyombo, duployan, caucasian-albanian, tibetan, batak, sundanese, grantha, syloti-nagri, tai-viet, takri, hebrew, new-tai-lue, khmer, brahmi, symbols, kannada, tai-le, khojki, gujarati, old-permic, kharoshthi, ahom, malayalam, tamil, devanagari, limbu, manichaean, pahawh-hmong, miao, mende-kikakui, syriac, wancho, marchen, hanunoo, telugu, music, mongolian, zanabazar-square, nko, psalter-pahlavi, buginese, balinese, bhaiksuki, rejang, lepcha, javanese
  * U+AB53 LATIN SMALL LETTER CHI: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `vietnamese` [code: unreachable-subsetting]
@@ -2144,7 +2160,25 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- dotlessi_ogonek
 
+	- eight.dnom
+
+	- eight.numr
+
+	- eight.tf
+
 	- f.alt
+
+	- five.dnom
+
+	- five.numr
+
+	- five.tf
+
+	- four.dnom
+
+	- four.numr
+
+	- four.tf
 
 	- i.loclTRK
 
@@ -2152,13 +2186,49 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- l.alt
 
+	- nine.dnom
+
+	- nine.numr
+
+	- nine.tf
+
+	- one.dnom
+
+	- one.numr
+
+	- one.tf
+
 	- periodcentered.loclCAT
 
 	- periodcentered.loclCAT.case
 
 	- q.alt
 
+	- seven.dnom
+
+	- seven.numr
+
+	- seven.tf
+
+	- six.dnom
+
+	- six.numr
+
+	- six.tf
+
 	- t.alt
+
+	- three.dnom
+
+	- three.numr
+
+	- three.tf
+
+	- two.dnom
+
+	- two.numr
+
+	- two.tf
 
 	- uni004A0301
 
@@ -2201,6 +2271,14 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- y.alt
 
 	- z.alt
+
+	- zero.dnom
+
+	- zero.numr
+
+	- zero.tf
+
+	- zero.zero
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
@@ -2259,6 +2337,8 @@ lessequal
 
 	* Oslashacute (U+01FE): L<<437.0,663.0>--<431.0,663.0>> -> L<<431.0,663.0>--<119.0,663.0>>
 
+	* dagger (U+2020): L<<178.0,581.0>--<178.0,494.0>> -> L<<178.0,494.0>--<179.0,372.0>>
+
 	* degree (U+00B0): L<<31.0,428.0>--<34.0,583.0>> -> L<<34.0,583.0>--<30.0,646.0>>
 
 	* eth (U+00F0): L<<253.0,464.0>--<223.0,464.0>> -> L<<223.0,464.0>--<126.0,472.0>>
@@ -2283,11 +2363,23 @@ lessequal
 
 	* scircumflex (U+015D): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
 
-	* three (U+0033): L<<300.0,0.0>--<289.0,0.0>> -> L<<289.0,0.0>--<103.0,3.0>>
+	* three (U+0033): L<<289.0,0.0>--<278.0,0.0>> -> L<<278.0,0.0>--<92.0,3.0>>
+
+	* uni018F (U+018F): L<<103.0,697.0>--<349.0,700.0>> -> L<<349.0,700.0>--<360.0,700.0>>
+
+	* uni018F (U+018F): L<<418.0,330.0>--<404.0,330.0>> -> L<<404.0,330.0>--<79.0,336.0>>
+
+	* uni018F (U+018F): L<<65.0,40.0>--<75.0,40.0>> -> L<<75.0,40.0>--<404.0,34.0>>
 
 	* uni01C2 (U+01C2): L<<62.0,509.0>--<81.0,508.0>> -> L<<81.0,508.0>--<100.0,508.0>>
 
 	* uni0219 (U+0219): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+
+	* uni02D7 (U+02D7): L<<321.0,435.0>--<82.0,437.0>> -> L<<82.0,437.0>--<67.0,437.0>>
+
+	* uni1DBF (U+1DBF): L<<31.0,478.0>--<34.0,583.0>> -> L<<34.0,583.0>--<33.0,620.0>>
+
+	* uni1DBF (U+1DBF): L<<34.0,583.0>--<33.0,620.0>> -> L<<33.0,620.0>--<30.0,746.0>>
 
 	* uni1E3E (U+1E3E): L<<633.0,303.0>--<634.0,315.0>> -> L<<634.0,315.0>--<634.0,616.0>>
 
@@ -2303,13 +2395,19 @@ lessequal
 
 	* uni1E67 (U+1E67): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
 
-	* uni1E69 (U+1E69): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>> [code: found-colinear-vectors]
+	* uni1E69 (U+1E69): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+
+	* uni2070 (U+2070): L<<31.0,467.0>--<34.0,672.0>> -> L<<34.0,672.0>--<30.0,735.0>>
+
+	* uni2080 (U+2080): L<<31.0,-134.0>--<34.0,71.0>> -> L<<34.0,71.0>--<30.0,134.0>>
+
+	* uniA7A8 (U+A7A8): L<<162.0,364.0>--<289.0,364.0>> -> L<<289.0,364.0>--<294.0,364.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* at (U+0040): B<<227.5,379.5>-<227.0,372.0>-<226.0,378.0>>/B<<226.0,378.0>-<226.0,371.0>-<231.0,360.5>> = 9.462322208025613
+	* Gammalatin (U+0194): B<<303.0,39.0>-<312.0,40.0>-<313.0,39.0>>/L<<313.0,39.0>--<278.0,97.0>> = 13.891191171454844
 
 	* copyright (U+00A9): B<<203.5,395.5>-<203.0,388.0>-<202.0,394.0>>/B<<202.0,394.0>-<202.0,387.0>-<207.0,376.5>> = 9.462322208025613
 
@@ -2319,7 +2417,9 @@ lessequal
 
 	* notequal (U+2260): L<<172.0,184.0>--<192.0,210.0>>/B<<192.0,210.0>-<186.0,203.0>-<196.5,216.5>> = 3.032702616176968
 
-	* uni0263 (U+0263): B<<303.0,-151.0>-<312.0,-150.0>-<313.0,-151.0>>/L<<313.0,-151.0>--<278.0,-93.0>> = 13.891191171454844 [code: found-jaggy-segments]
+	* uni0246 (U+0246): B<<262.0,327.0>-<263.0,344.0>-<264.0,362.0>>/B<<264.0,362.0>-<263.0,358.0>-<262.0,356.0>> = 10.8564133480622
+
+	* uni0263 (U+0263): B<<303.0,-161.0>-<312.0,-160.0>-<313.0,-161.0>>/L<<313.0,-161.0>--<278.0,-103.0>> = 13.891191171454844 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2363,6 +2463,8 @@ lessequal
 
 	* Rmacronbelow (U+1E5E): L<<79.0,337.0>--<80.0,654.0>>
 
+	* Upsilonlatin (U+01B1): L<<144.0,41.0>--<376.0,42.0>>
+
 	* b (U+0062): L<<124.0,451.0>--<452.0,450.0>>
 
 	* b (U+0062): L<<75.0,26.0>--<70.0,665.0>>
@@ -2380,6 +2482,8 @@ lessequal
 	* d (U+0064): L<<459.0,665.0>--<462.0,27.0>>
 
 	* d (U+0064): L<<95.0,450.0>--<413.0,451.0>>
+
+	* dagger (U+2020): L<<178.0,494.0>--<179.0,372.0>>
 
 	* dcaron (U+010F): L<<139.0,33.0>--<378.0,34.0>>
 
@@ -2423,6 +2527,8 @@ lessequal
 
 	* infinity (U+221E): L<<37.0,381.0>--<38.0,519.0>>
 
+	* ordfeminine (U+00AA): L<<42.0,617.0>--<182.0,616.0>>
+
 	* two (U+0032): L<<76.0,50.0>--<75.0,362.0>>
 
 	* uni0122 (U+0122): L<<398.0,0.0>--<182.0,-1.0>>
@@ -2432,6 +2538,8 @@ lessequal
 	* uni0156 (U+0156): L<<79.0,337.0>--<80.0,654.0>>
 
 	* uni01E2 (U+01E2): L<<391.0,180.0>--<392.0,304.0>>
+
+	* uni01E4 (U+01E4): L<<398.0,0.0>--<182.0,-1.0>>
 
 	* uni01F4 (U+01F4): L<<398.0,0.0>--<182.0,-1.0>>
 
@@ -2447,6 +2555,8 @@ lessequal
 
 	* uni023A (U+023A): L<<110.0,304.0>--<111.0,180.0>>
 
+	* uni02D7 (U+02D7): L<<321.0,435.0>--<82.0,437.0>>
+
 	* uni1E03 (U+1E03): L<<124.0,451.0>--<452.0,450.0>>
 
 	* uni1E03 (U+1E03): L<<75.0,26.0>--<70.0,665.0>>
@@ -2456,6 +2566,16 @@ lessequal
 	* uni1E05 (U+1E05): L<<75.0,26.0>--<70.0,665.0>>
 
 	* uni1E0A (U+1E0A): L<<106.0,308.0>--<105.0,60.0>>
+
+	* uni1E0B (U+1E0B): L<<139.0,33.0>--<378.0,34.0>>
+
+	* uni1E0B (U+1E0B): L<<347.0,1.0>--<108.0,0.0>>
+
+	* uni1E0B (U+1E0B): L<<429.0,496.0>--<428.0,654.0>>
+
+	* uni1E0B (U+1E0B): L<<459.0,665.0>--<462.0,27.0>>
+
+	* uni1E0B (U+1E0B): L<<95.0,450.0>--<413.0,451.0>>
 
 	* uni1E0C (U+1E0C): L<<106.0,308.0>--<105.0,60.0>>
 
@@ -2503,6 +2623,8 @@ lessequal
 
 	* uni1E29 (U+1E29): L<<455.0,20.0>--<452.0,393.0>>
 
+	* uni1E2B (U+1E2B): L<<455.0,20.0>--<452.0,393.0>>
+
 	* uni1E58 (U+1E58): L<<114.0,650.0>--<112.0,384.0>>
 
 	* uni1E58 (U+1E58): L<<79.0,337.0>--<80.0,654.0>>
@@ -2515,6 +2637,16 @@ lessequal
 
 	* uni1E5C (U+1E5C): L<<79.0,337.0>--<80.0,654.0>>
 
+	* uni2076 (U+2076): L<<69.0,612.0>--<184.0,613.0>>
+
+	* uni2079 (U+2079): L<<162.0,596.0>--<42.0,595.0>>
+
+	* uni2086 (U+2086): L<<69.0,11.0>--<184.0,12.0>>
+
+	* uni2089 (U+2089): L<<162.0,2.0>--<42.0,1.0>>
+
+	* uni2126 (U+2126): L<<328.0,713.0>--<565.0,712.0>>
+
 	* zero (U+0030): L<<58.0,32.0>--<207.0,33.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
@@ -2523,14 +2655,14 @@ lessequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̛ i̛̇ i̛̊ i̛̋ i̛̍ i̛̐ i̛̒ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ ĭ̥ i̥̇ i̥̊
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Dutch (Latn, 31,709,104 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 11 | 123 | 7 | 101 | 0 |
+| 0 | 9 | 11 | 123 | 7 | 102 | 0 |
 | 0% | 4% | 4% | 49% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
