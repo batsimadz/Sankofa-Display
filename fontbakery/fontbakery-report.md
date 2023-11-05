@@ -259,7 +259,7 @@ But instead we have got:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -268,9 +268,9 @@ But instead we have got:
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, coptic, malayalam, old-permic, canadian-aboriginal, tai-le, syriac, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, coptic, tai-le, canadian-aboriginal, tifinagh, old-permic, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -288,8 +288,8 @@ But instead we have got:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, cherokee, tifinagh, syriac, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, syriac, caucasian-albanian, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
@@ -329,14 +329,14 @@ But instead we have got:
  * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
  * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
  * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
- * U+2195 UP DOWN ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math
+ * U+2195 UP DOWN ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
@@ -347,8 +347,8 @@ But instead we have got:
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: tirhuta, osage, bassa-vah, cham, khudawadi, music, coptic, chakma, tai-viet, balinese, tifinagh, sundanese, elbasan, khojki, marchen, limbu, rejang, gujarati, hanifi-rohingya, ahom, manichaean, myanmar, takri, mende-kikakui, gurmukhi, thaana, grantha, old-permic, telugu, newa, hanunoo, math, meetei-mayek, mongolian, mahajani, kharoshthi, kayah-li, new-tai-lue, soyombo, symbols, sinhala, kannada, sogdian, javanese, kaithi, adlam, malayalam, batak, phags-pa, tibetan, dogra, tagalog, bengali, yi, buginese, miao, tagbanwa, zanabazar-square, oriya, brahmi, siddham, devanagari, tamil, wancho, syloti-nagri, nko, caucasian-albanian, khmer, modi, duployan, mandaic, thai, psalter-pahlavi, gunjala-gondi, lao, hebrew, bhaiksuki, masaram-gondi, buhid, pahawh-hmong, tai-le, lepcha, syriac, sharada
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: caucasian-albanian, khudawadi, limbu, mahajani, javanese, buhid, adlam, kayah-li, tirhuta, meetei-mayek, pahawh-hmong, chakma, takri, balinese, kharoshthi, cham, brahmi, kaithi, nko, masaram-gondi, tamil, math, symbols, coptic, tai-viet, ahom, malayalam, devanagari, sogdian, modi, tagalog, sharada, thai, grantha, gunjala-gondi, khojki, myanmar, tibetan, osage, music, lao, mandaic, psalter-pahlavi, syloti-nagri, gujarati, oriya, dogra, telugu, thaana, gurmukhi, hanunoo, bassa-vah, wancho, mongolian, miao, batak, bhaiksuki, duployan, syriac, elbasan, siddham, zanabazar-square, old-permic, khmer, yi, new-tai-lue, phags-pa, hanifi-rohingya, tifinagh, mende-kikakui, tai-le, lepcha, kannada, sinhala, bengali, tagbanwa, buginese, manichaean, marchen, sundanese, rejang, soyombo, newa, hebrew
  * U+AB53 LATIN SMALL LETTER CHI: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext`, `vietnamese` [code: unreachable-subsetting]
@@ -1071,8 +1071,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0237	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni023A	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni023C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni023D	Contours detected: 3	Expected: 1
 
@@ -1934,8 +1932,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni023A	Contours detected: 5	Expected: 3
 
-	- Glyph name: uni023C	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni023D	Contours detected: 3	Expected: 1
 
 	- Glyph name: uni023E	Contours detected: 3	Expected: 2
@@ -2303,7 +2299,7 @@ Width = 555:
 divide
 
 Width = 600:
-minus, greaterequal
+greaterequal, minus
 
 Width = 477:
 approxequal
@@ -2329,7 +2325,7 @@ lessequal
 
 	* Euro (U+20AC): L<<9.0,312.0>--<38.0,311.0>> -> L<<38.0,311.0>--<78.0,311.0>>
 
-	* M (U+004D): L<<633.0,303.0>--<634.0,315.0>> -> L<<634.0,315.0>--<634.0,616.0>>
+	* M (U+004D): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
 
 	* Oslash (U+00D8): L<<437.0,663.0>--<431.0,663.0>> -> L<<431.0,663.0>--<119.0,663.0>>
 
@@ -2337,7 +2333,7 @@ lessequal
 
 	* dagger (U+2020): L<<178.0,581.0>--<178.0,494.0>> -> L<<178.0,494.0>--<179.0,372.0>>
 
-	* degree (U+00B0): L<<31.0,428.0>--<34.0,583.0>> -> L<<34.0,583.0>--<30.0,646.0>>
+	* degree (U+00B0): L<<41.0,428.0>--<44.0,583.0>> -> L<<44.0,583.0>--<40.0,646.0>>
 
 	* eth (U+00F0): L<<253.0,464.0>--<223.0,464.0>> -> L<<223.0,464.0>--<126.0,472.0>>
 
@@ -2345,7 +2341,7 @@ lessequal
 
 	* ordmasculine (U+00BA): L<<31.0,476.0>--<34.0,523.0>> -> L<<34.0,523.0>--<30.0,686.0>>
 
-	* p (U+0070): L<<69.0,122.0>--<71.0,419.0>> -> L<<71.0,419.0>--<71.0,446.0>>
+	* p (U+0070): L<<40.0,122.0>--<42.0,419.0>> -> L<<42.0,419.0>--<42.0,446.0>>
 
 	* percent (U+0025): L<<31.0,478.0>--<34.0,583.0>> -> L<<34.0,583.0>--<30.0,646.0>>
 
@@ -2353,17 +2349,17 @@ lessequal
 
 	* perthousand (U+2030): L<<823.0,188.0>--<820.0,83.0>> -> L<<820.0,83.0>--<824.0,20.0>>
 
-	* s (U+0073): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* s (U+0073): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* sacute (U+015B): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* sacute (U+015B): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* scaron (U+0161): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* scaron (U+0161): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* scedilla (U+015F): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* scedilla (U+015F): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* scircumflex (U+015D): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* scircumflex (U+015D): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* three (U+0033): L<<289.0,0.0>--<278.0,0.0>> -> L<<278.0,0.0>--<92.0,3.0>>
+	* three (U+0033): L<<279.0,0.0>--<268.0,0.0>> -> L<<268.0,0.0>--<82.0,3.0>>
 
 	* uni018F (U+018F): L<<112.0,40.0>--<122.0,40.0>> -> L<<122.0,40.0>--<451.0,34.0>>
 
@@ -2373,7 +2369,7 @@ lessequal
 
 	* uni01C2 (U+01C2): L<<62.0,509.0>--<81.0,508.0>> -> L<<81.0,508.0>--<100.0,508.0>>
 
-	* uni0219 (U+0219): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* uni0219 (U+0219): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
 	* uni02D7 (U+02D7): L<<321.0,435.0>--<82.0,437.0>> -> L<<82.0,437.0>--<67.0,437.0>>
 
@@ -2381,47 +2377,45 @@ lessequal
 
 	* uni1DBF (U+1DBF): L<<34.0,583.0>--<33.0,620.0>> -> L<<33.0,620.0>--<30.0,746.0>>
 
-	* uni1E3E (U+1E3E): L<<633.0,303.0>--<634.0,315.0>> -> L<<634.0,315.0>--<634.0,616.0>>
+	* uni1E3E (U+1E3E): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
 
-	* uni1E40 (U+1E40): L<<633.0,303.0>--<634.0,315.0>> -> L<<634.0,315.0>--<634.0,616.0>>
+	* uni1E40 (U+1E40): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
 
-	* uni1E42 (U+1E42): L<<633.0,303.0>--<634.0,315.0>> -> L<<634.0,315.0>--<634.0,616.0>>
+	* uni1E42 (U+1E42): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
 
-	* uni1E55 (U+1E55): L<<69.0,122.0>--<71.0,419.0>> -> L<<71.0,419.0>--<71.0,446.0>>
+	* uni1E55 (U+1E55): L<<40.0,122.0>--<42.0,419.0>> -> L<<42.0,419.0>--<42.0,446.0>>
 
-	* uni1E57 (U+1E57): L<<69.0,122.0>--<71.0,419.0>> -> L<<71.0,419.0>--<71.0,446.0>>
+	* uni1E57 (U+1E57): L<<40.0,122.0>--<42.0,419.0>> -> L<<42.0,419.0>--<42.0,446.0>>
 
-	* uni1E61 (U+1E61): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* uni1E61 (U+1E61): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* uni1E63 (U+1E63): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* uni1E63 (U+1E63): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* uni1E65 (U+1E65): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* uni1E65 (U+1E65): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* uni1E67 (U+1E67): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* uni1E67 (U+1E67): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
-	* uni1E69 (U+1E69): L<<402.0,228.0>--<404.0,217.0>> -> L<<404.0,217.0>--<406.0,201.0>>
+	* uni1E69 (U+1E69): L<<372.0,228.0>--<374.0,217.0>> -> L<<374.0,217.0>--<376.0,201.0>>
 
 	* uni2070 (U+2070): L<<31.0,467.0>--<34.0,672.0>> -> L<<34.0,672.0>--<30.0,735.0>>
 
 	* uni2080 (U+2080): L<<31.0,-134.0>--<34.0,71.0>> -> L<<34.0,71.0>--<30.0,134.0>>
 
-	* uni2153 (U+2153): L<<1200.0,0.0>--<1189.0,0.0>> -> L<<1189.0,0.0>--<1003.0,3.0>>
+	* uni2153 (U+2153): L<<1190.0,0.0>--<1179.0,0.0>> -> L<<1179.0,0.0>--<993.0,3.0>>
 
-	* uni2154 (U+2154): L<<1278.0,0.0>--<1267.0,0.0>> -> L<<1267.0,0.0>--<1081.0,3.0>>
+	* uni2154 (U+2154): L<<1208.0,0.0>--<1197.0,0.0>> -> L<<1197.0,0.0>--<1011.0,3.0>>
 
-	* uni2C72 (U+2C72): L<<650.0,689.0>--<650.0,689.0>> -> L<<650.0,689.0>--<652.0,689.0>>
-
-	* uniA7A8 (U+A7A8): L<<162.0,364.0>--<289.0,364.0>> -> L<<289.0,364.0>--<294.0,364.0>> [code: found-colinear-vectors]
+	* uniA7A8 (U+A7A8): L<<396.0,333.0>--<312.0,334.0>> -> L<<312.0,334.0>--<310.0,334.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* copyright (U+00A9): B<<203.5,395.5>-<203.0,388.0>-<202.0,394.0>>/B<<202.0,394.0>-<202.0,387.0>-<207.0,376.5>> = 9.462322208025613
+	* copyright (U+00A9): B<<213.5,395.5>-<213.0,388.0>-<212.0,394.0>>/B<<212.0,394.0>-<212.0,387.0>-<217.0,376.5>> = 9.462322208025613
 
-	* copyright (U+00A9): B<<284.0,214.0>-<299.0,212.0>-<328.0,205.0>>/B<<328.0,205.0>-<325.0,206.0>-<332.0,206.5>> = 4.864514437760454
+	* copyright (U+00A9): B<<294.0,214.0>-<309.0,212.0>-<338.0,205.0>>/B<<338.0,205.0>-<335.0,206.0>-<342.0,206.5>> = 4.864514437760454
 
-	* copyright (U+00A9): B<<334.0,204.0>-<335.0,204.0>-<330.0,205.0>>/L<<330.0,205.0>--<334.0,204.0>> = 2.726310993906212
+	* copyright (U+00A9): B<<344.0,204.0>-<345.0,204.0>-<340.0,205.0>>/L<<340.0,205.0>--<344.0,204.0>> = 2.726310993906212
 
 	* notequal (U+2260): L<<172.0,184.0>--<192.0,210.0>>/B<<192.0,210.0>-<186.0,203.0>-<196.5,216.5>> = 3.032702616176968 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -2431,229 +2425,229 @@ lessequal
 
 	* AE (U+00C6): L<<391.0,180.0>--<392.0,304.0>>
 
-	* D (U+0044): L<<106.0,308.0>--<105.0,60.0>>
+	* D (U+0044): L<<76.0,308.0>--<75.0,60.0>>
 
-	* Dcaron (U+010E): L<<106.0,308.0>--<105.0,60.0>>
+	* Dcaron (U+010E): L<<76.0,308.0>--<75.0,60.0>>
 
 	* Dcroat (U+0110): L<<105.0,323.0>--<104.0,94.0>>
 
-	* Dmacronbelow (U+1E0E): L<<106.0,308.0>--<105.0,60.0>>
+	* Dmacronbelow (U+1E0E): L<<76.0,308.0>--<75.0,60.0>>
 
 	* Eth (U+00D0): L<<125.0,329.0>--<124.0,94.0>>
 
-	* G (U+0047): L<<398.0,0.0>--<182.0,-1.0>>
+	* G (U+0047): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* Gbreve (U+011E): L<<398.0,0.0>--<182.0,-1.0>>
+	* Gbreve (U+011E): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* Gcaron (U+01E6): L<<398.0,0.0>--<182.0,-1.0>>
+	* Gcaron (U+01E6): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* Gcircumflex (U+011C): L<<398.0,0.0>--<182.0,-1.0>>
+	* Gcircumflex (U+011C): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* Gdotaccent (U+0120): L<<398.0,0.0>--<182.0,-1.0>>
+	* Gdotaccent (U+0120): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* R (U+0052): L<<114.0,650.0>--<112.0,384.0>>
+	* R (U+0052): L<<49.0,337.0>--<50.0,654.0>>
 
-	* R (U+0052): L<<79.0,337.0>--<80.0,654.0>>
+	* R (U+0052): L<<84.0,650.0>--<82.0,384.0>>
 
-	* Racute (U+0154): L<<114.0,650.0>--<112.0,384.0>>
+	* Racute (U+0154): L<<49.0,337.0>--<50.0,654.0>>
 
-	* Racute (U+0154): L<<79.0,337.0>--<80.0,654.0>>
+	* Racute (U+0154): L<<84.0,650.0>--<82.0,384.0>>
 
-	* Rcaron (U+0158): L<<114.0,650.0>--<112.0,384.0>>
+	* Rcaron (U+0158): L<<49.0,337.0>--<50.0,654.0>>
 
-	* Rcaron (U+0158): L<<79.0,337.0>--<80.0,654.0>>
+	* Rcaron (U+0158): L<<84.0,650.0>--<82.0,384.0>>
 
-	* Rmacronbelow (U+1E5E): L<<114.0,650.0>--<112.0,384.0>>
+	* Rmacronbelow (U+1E5E): L<<49.0,337.0>--<50.0,654.0>>
 
-	* Rmacronbelow (U+1E5E): L<<79.0,337.0>--<80.0,654.0>>
+	* Rmacronbelow (U+1E5E): L<<84.0,650.0>--<82.0,384.0>>
 
-	* Upsilonlatin (U+01B1): L<<144.0,41.0>--<376.0,42.0>>
+	* Upsilonlatin (U+01B1): L<<124.0,41.0>--<356.0,42.0>>
 
-	* b (U+0062): L<<124.0,451.0>--<452.0,450.0>>
+	* b (U+0062): L<<45.0,26.0>--<40.0,665.0>>
 
-	* b (U+0062): L<<75.0,26.0>--<70.0,665.0>>
+	* b (U+0062): L<<94.0,451.0>--<422.0,450.0>>
 
-	* bmacronbelow (U+1E07): L<<124.0,451.0>--<452.0,450.0>>
+	* bmacronbelow (U+1E07): L<<45.0,26.0>--<40.0,665.0>>
 
-	* bmacronbelow (U+1E07): L<<75.0,26.0>--<70.0,665.0>>
+	* bmacronbelow (U+1E07): L<<94.0,451.0>--<422.0,450.0>>
 
-	* d (U+0064): L<<139.0,33.0>--<378.0,34.0>>
+	* d (U+0064): L<<109.0,33.0>--<348.0,34.0>>
 
-	* d (U+0064): L<<347.0,1.0>--<108.0,0.0>>
+	* d (U+0064): L<<317.0,1.0>--<78.0,0.0>>
 
-	* d (U+0064): L<<429.0,496.0>--<428.0,654.0>>
+	* d (U+0064): L<<399.0,496.0>--<398.0,654.0>>
 
-	* d (U+0064): L<<459.0,665.0>--<462.0,27.0>>
+	* d (U+0064): L<<429.0,665.0>--<432.0,27.0>>
 
-	* d (U+0064): L<<95.0,450.0>--<413.0,451.0>>
+	* d (U+0064): L<<65.0,450.0>--<383.0,451.0>>
 
 	* dagger (U+2020): L<<178.0,494.0>--<179.0,372.0>>
 
-	* dcaron (U+010F): L<<139.0,33.0>--<378.0,34.0>>
+	* dcaron (U+010F): L<<109.0,33.0>--<348.0,34.0>>
 
-	* dcaron (U+010F): L<<347.0,1.0>--<108.0,0.0>>
+	* dcaron (U+010F): L<<317.0,1.0>--<78.0,0.0>>
 
-	* dcaron (U+010F): L<<429.0,496.0>--<428.0,654.0>>
+	* dcaron (U+010F): L<<399.0,496.0>--<398.0,654.0>>
 
-	* dcaron (U+010F): L<<459.0,665.0>--<462.0,27.0>>
+	* dcaron (U+010F): L<<429.0,665.0>--<432.0,27.0>>
 
-	* dcaron (U+010F): L<<95.0,450.0>--<413.0,451.0>>
+	* dcaron (U+010F): L<<65.0,450.0>--<383.0,451.0>>
 
-	* dcroat (U+0111): L<<139.0,33.0>--<378.0,34.0>>
+	* dcroat (U+0111): L<<109.0,33.0>--<348.0,34.0>>
 
-	* dcroat (U+0111): L<<347.0,1.0>--<108.0,0.0>>
+	* dcroat (U+0111): L<<317.0,1.0>--<78.0,0.0>>
 
-	* dcroat (U+0111): L<<459.0,587.0>--<462.0,27.0>>
+	* dcroat (U+0111): L<<429.0,587.0>--<432.0,27.0>>
 
-	* dcroat (U+0111): L<<95.0,450.0>--<413.0,451.0>>
+	* dcroat (U+0111): L<<65.0,450.0>--<383.0,451.0>>
 
-	* dmacronbelow (U+1E0F): L<<139.0,33.0>--<378.0,34.0>>
+	* dmacronbelow (U+1E0F): L<<109.0,33.0>--<348.0,34.0>>
 
-	* dmacronbelow (U+1E0F): L<<347.0,1.0>--<108.0,0.0>>
+	* dmacronbelow (U+1E0F): L<<317.0,1.0>--<78.0,0.0>>
 
-	* dmacronbelow (U+1E0F): L<<429.0,496.0>--<428.0,654.0>>
+	* dmacronbelow (U+1E0F): L<<399.0,496.0>--<398.0,654.0>>
 
-	* dmacronbelow (U+1E0F): L<<459.0,665.0>--<462.0,27.0>>
+	* dmacronbelow (U+1E0F): L<<429.0,665.0>--<432.0,27.0>>
 
-	* dmacronbelow (U+1E0F): L<<95.0,450.0>--<413.0,451.0>>
+	* dmacronbelow (U+1E0F): L<<65.0,450.0>--<383.0,451.0>>
 
-	* dollar (U+0024): L<<286.0,338.0>--<285.0,202.0>>
+	* dollar (U+0024): L<<256.0,338.0>--<255.0,202.0>>
 
-	* five (U+0035): L<<439.0,432.0>--<438.0,50.0>>
+	* five (U+0035): L<<410.0,432.0>--<409.0,50.0>>
 
 	* four (U+0034): L<<46.0,51.0>--<276.0,50.0>>
 
-	* h (U+0068): L<<455.0,20.0>--<452.0,393.0>>
+	* h (U+0068): L<<425.0,20.0>--<422.0,393.0>>
 
-	* hbar (U+0127): L<<455.0,20.0>--<452.0,393.0>>
+	* hbar (U+0127): L<<425.0,20.0>--<422.0,393.0>>
 
-	* hcircumflex (U+0125): L<<455.0,20.0>--<452.0,393.0>>
+	* hcircumflex (U+0125): L<<425.0,20.0>--<422.0,393.0>>
 
 	* infinity (U+221E): L<<37.0,381.0>--<38.0,519.0>>
 
 	* ordfeminine (U+00AA): L<<42.0,617.0>--<182.0,616.0>>
 
-	* p (U+0070): L<<105.0,213.0>--<104.0,-54.0>>
+	* p (U+0070): L<<40.0,122.0>--<42.0,419.0>>
 
-	* p (U+0070): L<<69.0,122.0>--<71.0,419.0>>
+	* p (U+0070): L<<76.0,213.0>--<75.0,-54.0>>
 
-	* two (U+0032): L<<76.0,50.0>--<75.0,362.0>>
+	* two (U+0032): L<<46.0,50.0>--<45.0,362.0>>
 
-	* uni0122 (U+0122): L<<398.0,0.0>--<182.0,-1.0>>
+	* uni0122 (U+0122): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* uni0156 (U+0156): L<<114.0,650.0>--<112.0,384.0>>
+	* uni0156 (U+0156): L<<49.0,337.0>--<50.0,654.0>>
 
-	* uni0156 (U+0156): L<<79.0,337.0>--<80.0,654.0>>
+	* uni0156 (U+0156): L<<84.0,650.0>--<82.0,384.0>>
 
-	* uni0190 (U+0190): L<<398.0,666.0>--<166.0,665.0>>
+	* uni0190 (U+0190): L<<338.0,666.0>--<106.0,665.0>>
 
 	* uni01E2 (U+01E2): L<<391.0,180.0>--<392.0,304.0>>
 
-	* uni01E4 (U+01E4): L<<398.0,0.0>--<182.0,-1.0>>
+	* uni01E4 (U+01E4): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* uni01F4 (U+01F4): L<<398.0,0.0>--<182.0,-1.0>>
+	* uni01F4 (U+01F4): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* uni0210 (U+0210): L<<114.0,650.0>--<112.0,384.0>>
+	* uni0210 (U+0210): L<<49.0,337.0>--<50.0,654.0>>
 
-	* uni0210 (U+0210): L<<79.0,337.0>--<80.0,654.0>>
+	* uni0210 (U+0210): L<<84.0,650.0>--<82.0,384.0>>
 
-	* uni0212 (U+0212): L<<114.0,650.0>--<112.0,384.0>>
+	* uni0212 (U+0212): L<<49.0,337.0>--<50.0,654.0>>
 
-	* uni0212 (U+0212): L<<79.0,337.0>--<80.0,654.0>>
+	* uni0212 (U+0212): L<<84.0,650.0>--<82.0,384.0>>
 
-	* uni021F (U+021F): L<<455.0,20.0>--<452.0,393.0>>
+	* uni021F (U+021F): L<<425.0,20.0>--<422.0,393.0>>
 
 	* uni023A (U+023A): L<<110.0,304.0>--<111.0,180.0>>
 
 	* uni02D7 (U+02D7): L<<321.0,435.0>--<82.0,437.0>>
 
-	* uni1E03 (U+1E03): L<<124.0,451.0>--<452.0,450.0>>
+	* uni1E03 (U+1E03): L<<45.0,26.0>--<40.0,665.0>>
 
-	* uni1E03 (U+1E03): L<<75.0,26.0>--<70.0,665.0>>
+	* uni1E03 (U+1E03): L<<94.0,451.0>--<422.0,450.0>>
 
-	* uni1E05 (U+1E05): L<<124.0,451.0>--<452.0,450.0>>
+	* uni1E05 (U+1E05): L<<45.0,26.0>--<40.0,665.0>>
 
-	* uni1E05 (U+1E05): L<<75.0,26.0>--<70.0,665.0>>
+	* uni1E05 (U+1E05): L<<94.0,451.0>--<422.0,450.0>>
 
-	* uni1E0A (U+1E0A): L<<106.0,308.0>--<105.0,60.0>>
+	* uni1E0A (U+1E0A): L<<76.0,308.0>--<75.0,60.0>>
 
-	* uni1E0B (U+1E0B): L<<139.0,33.0>--<378.0,34.0>>
+	* uni1E0B (U+1E0B): L<<109.0,33.0>--<348.0,34.0>>
 
-	* uni1E0B (U+1E0B): L<<347.0,1.0>--<108.0,0.0>>
+	* uni1E0B (U+1E0B): L<<317.0,1.0>--<78.0,0.0>>
 
-	* uni1E0B (U+1E0B): L<<429.0,496.0>--<428.0,654.0>>
+	* uni1E0B (U+1E0B): L<<399.0,496.0>--<398.0,654.0>>
 
-	* uni1E0B (U+1E0B): L<<459.0,665.0>--<462.0,27.0>>
+	* uni1E0B (U+1E0B): L<<429.0,665.0>--<432.0,27.0>>
 
-	* uni1E0B (U+1E0B): L<<95.0,450.0>--<413.0,451.0>>
+	* uni1E0B (U+1E0B): L<<65.0,450.0>--<383.0,451.0>>
 
-	* uni1E0C (U+1E0C): L<<106.0,308.0>--<105.0,60.0>>
+	* uni1E0C (U+1E0C): L<<76.0,308.0>--<75.0,60.0>>
 
-	* uni1E0D (U+1E0D): L<<139.0,33.0>--<378.0,34.0>>
+	* uni1E0D (U+1E0D): L<<109.0,33.0>--<348.0,34.0>>
 
-	* uni1E0D (U+1E0D): L<<347.0,1.0>--<108.0,0.0>>
+	* uni1E0D (U+1E0D): L<<317.0,1.0>--<78.0,0.0>>
 
-	* uni1E0D (U+1E0D): L<<429.0,496.0>--<428.0,654.0>>
+	* uni1E0D (U+1E0D): L<<399.0,496.0>--<398.0,654.0>>
 
-	* uni1E0D (U+1E0D): L<<459.0,665.0>--<462.0,27.0>>
+	* uni1E0D (U+1E0D): L<<429.0,665.0>--<432.0,27.0>>
 
-	* uni1E0D (U+1E0D): L<<95.0,450.0>--<413.0,451.0>>
+	* uni1E0D (U+1E0D): L<<65.0,450.0>--<383.0,451.0>>
 
-	* uni1E10 (U+1E10): L<<106.0,308.0>--<105.0,60.0>>
+	* uni1E10 (U+1E10): L<<76.0,308.0>--<75.0,60.0>>
 
-	* uni1E11 (U+1E11): L<<139.0,33.0>--<378.0,34.0>>
+	* uni1E11 (U+1E11): L<<109.0,33.0>--<348.0,34.0>>
 
-	* uni1E11 (U+1E11): L<<347.0,1.0>--<108.0,0.0>>
+	* uni1E11 (U+1E11): L<<317.0,1.0>--<78.0,0.0>>
 
-	* uni1E11 (U+1E11): L<<429.0,496.0>--<428.0,654.0>>
+	* uni1E11 (U+1E11): L<<399.0,496.0>--<398.0,654.0>>
 
-	* uni1E11 (U+1E11): L<<459.0,665.0>--<462.0,27.0>>
+	* uni1E11 (U+1E11): L<<429.0,665.0>--<432.0,27.0>>
 
-	* uni1E11 (U+1E11): L<<95.0,450.0>--<413.0,451.0>>
+	* uni1E11 (U+1E11): L<<65.0,450.0>--<383.0,451.0>>
 
-	* uni1E12 (U+1E12): L<<106.0,308.0>--<105.0,60.0>>
+	* uni1E12 (U+1E12): L<<76.0,308.0>--<75.0,60.0>>
 
-	* uni1E13 (U+1E13): L<<139.0,33.0>--<378.0,34.0>>
+	* uni1E13 (U+1E13): L<<109.0,33.0>--<348.0,34.0>>
 
-	* uni1E13 (U+1E13): L<<347.0,1.0>--<108.0,0.0>>
+	* uni1E13 (U+1E13): L<<317.0,1.0>--<78.0,0.0>>
 
-	* uni1E13 (U+1E13): L<<429.0,496.0>--<428.0,654.0>>
+	* uni1E13 (U+1E13): L<<399.0,496.0>--<398.0,654.0>>
 
-	* uni1E13 (U+1E13): L<<459.0,665.0>--<462.0,27.0>>
+	* uni1E13 (U+1E13): L<<429.0,665.0>--<432.0,27.0>>
 
-	* uni1E13 (U+1E13): L<<95.0,450.0>--<413.0,451.0>>
+	* uni1E13 (U+1E13): L<<65.0,450.0>--<383.0,451.0>>
 
-	* uni1E20 (U+1E20): L<<398.0,0.0>--<182.0,-1.0>>
+	* uni1E20 (U+1E20): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* uni1E23 (U+1E23): L<<455.0,20.0>--<452.0,393.0>>
+	* uni1E23 (U+1E23): L<<425.0,20.0>--<422.0,393.0>>
 
-	* uni1E25 (U+1E25): L<<455.0,20.0>--<452.0,393.0>>
+	* uni1E25 (U+1E25): L<<425.0,20.0>--<422.0,393.0>>
 
-	* uni1E27 (U+1E27): L<<455.0,20.0>--<452.0,393.0>>
+	* uni1E27 (U+1E27): L<<425.0,20.0>--<422.0,393.0>>
 
-	* uni1E29 (U+1E29): L<<455.0,20.0>--<452.0,393.0>>
+	* uni1E29 (U+1E29): L<<425.0,20.0>--<422.0,393.0>>
 
-	* uni1E2B (U+1E2B): L<<455.0,20.0>--<452.0,393.0>>
+	* uni1E2B (U+1E2B): L<<425.0,20.0>--<422.0,393.0>>
 
-	* uni1E55 (U+1E55): L<<105.0,213.0>--<104.0,-54.0>>
+	* uni1E55 (U+1E55): L<<40.0,122.0>--<42.0,419.0>>
 
-	* uni1E55 (U+1E55): L<<69.0,122.0>--<71.0,419.0>>
+	* uni1E55 (U+1E55): L<<76.0,213.0>--<75.0,-54.0>>
 
-	* uni1E57 (U+1E57): L<<105.0,213.0>--<104.0,-54.0>>
+	* uni1E57 (U+1E57): L<<40.0,122.0>--<42.0,419.0>>
 
-	* uni1E57 (U+1E57): L<<69.0,122.0>--<71.0,419.0>>
+	* uni1E57 (U+1E57): L<<76.0,213.0>--<75.0,-54.0>>
 
-	* uni1E58 (U+1E58): L<<114.0,650.0>--<112.0,384.0>>
+	* uni1E58 (U+1E58): L<<49.0,337.0>--<50.0,654.0>>
 
-	* uni1E58 (U+1E58): L<<79.0,337.0>--<80.0,654.0>>
+	* uni1E58 (U+1E58): L<<84.0,650.0>--<82.0,384.0>>
 
-	* uni1E5A (U+1E5A): L<<114.0,650.0>--<112.0,384.0>>
+	* uni1E5A (U+1E5A): L<<49.0,337.0>--<50.0,654.0>>
 
-	* uni1E5A (U+1E5A): L<<79.0,337.0>--<80.0,654.0>>
+	* uni1E5A (U+1E5A): L<<84.0,650.0>--<82.0,384.0>>
 
-	* uni1E5C (U+1E5C): L<<114.0,650.0>--<112.0,384.0>>
+	* uni1E5C (U+1E5C): L<<49.0,337.0>--<50.0,654.0>>
 
-	* uni1E5C (U+1E5C): L<<79.0,337.0>--<80.0,654.0>>
+	* uni1E5C (U+1E5C): L<<84.0,650.0>--<82.0,384.0>>
 
 	* uni2076 (U+2076): L<<69.0,612.0>--<184.0,613.0>>
 
@@ -2665,7 +2659,7 @@ lessequal
 
 	* uni2126 (U+2126): L<<328.0,713.0>--<565.0,712.0>>
 
-	* uni2154 (U+2154): L<<76.0,50.0>--<75.0,362.0>> [code: found-semi-vertical]
+	* uni2154 (U+2154): L<<46.0,50.0>--<45.0,362.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -2673,7 +2667,7 @@ lessequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̛ i̛̇ i̛̊ i̛̋ i̛̍ i̛̐ i̛̒ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ ĭ̥ i̥̇ i̥̊
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Dutch (Latn, 31,709,104 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
