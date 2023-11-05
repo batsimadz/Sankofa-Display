@@ -3768,6 +3768,7 @@ width = 441;
 }
 );
 unicode = 7708;
+changeCount = 1;
 },
 {
 glyphname = Ecircumflex;
@@ -18709,6 +18710,7 @@ width = 453;
 }
 );
 unicode = 553;
+changeCount = 1;
 },
 {
 glyphname = ecedillabreve;
@@ -18733,6 +18735,7 @@ width = 453;
 }
 );
 unicode = 7709;
+changeCount = 1;
 },
 {
 glyphname = ecircumflex;
@@ -25550,6 +25553,7 @@ width = 419;
 }
 );
 unicode = 351;
+changeCount = 1;
 },
 {
 glyphname = scircumflex;
@@ -25968,6 +25972,7 @@ width = 367;
 }
 );
 unicode = 355;
+changeCount = 1;
 },
 {
 glyphname = tcircumflexbelow;
