@@ -1,10 +1,10 @@
 # Sankofa
 
-[![][Fontbakery]](https://batsimadz.github.io/test/fontbakery/fontbakery-report.html)
-[![][Universal]](https://batsimadz.github.io/test/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://batsimadz.github.io/test/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://batsimadz.github.io/test/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://batsimadz.github.io/test/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
+[![][Universal]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
 
 [Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbatsimadz%2Ftest%2Fgh-pages%2Fbadges%2Foverall.json
 [GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbatsimadz%2Ftest%2Fgh-pages%2Fbadges%2FGoogleFonts.json
