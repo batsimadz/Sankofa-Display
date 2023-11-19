@@ -365,6 +365,22 @@ value = 315;
 {
 name = hheaAscender;
 value = 800;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = typoAscender;
+value = 800;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
 }
 );
 id = m01;
