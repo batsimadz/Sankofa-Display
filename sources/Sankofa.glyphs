@@ -4,7 +4,7 @@
 DisplayStrings = (
 "̆ă",
 "/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb ̆/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷊̈̇̀/gravecomb_macroncomb ́́-̄/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄́̀/macroncomb_gravecomb ̄/macroncomb_acutecomb ̉̍̒̓̕",
-"/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̵̧̨̛̣̥̦̩̭̯̰̱̲̉̍̏̐̑̒̓᷇᷅᷄᷆̕͘/commaaccentcomb.loclMAH"
+"ẴẪÃỄẼḚĨḬⱢÑƟỖỠÕṌṎȬỮŨṴ̃́ṴṼỸ/brevecomb_tildecomb ẵ̃/circumflexcomb_tildecomb ẫã/circumflexcomb_tildecomb ễḛ̃ḛḭ̃ḭɫñỗỡõṍṏȭữũṹṵ̃ṽỹ"
 );
 axes = (
 {
@@ -9990,7 +9990,7 @@ unicode = 7738;
 },
 {
 glyphname = Lmiddletilde;
-lastChange = "2023-11-02 18:37:42 +0000";
+lastChange = "2023-11-19 10:56:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -10000,11 +10000,11 @@ ref = L;
 },
 {
 alignment = -1;
-pos = (-77,-316);
-ref = tilde;
+pos = (-121,-327);
+ref = tildecomb;
 }
 );
-width = 537;
+width = 487;
 }
 );
 unicode = 11362;
@@ -27166,6 +27166,7 @@ unicode = 305;
 },
 {
 glyphname = idotless_ogonek;
+lastChange = "2023-11-19 10:52:32 +0000";
 layers = (
 {
 layerId = m01;
@@ -27174,11 +27175,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (374,0);
-ref = ogonek;
+pos = (72,44);
+ref = ogonekcomb;
 }
 );
-width = 585;
+width = 374;
 }
 );
 },
