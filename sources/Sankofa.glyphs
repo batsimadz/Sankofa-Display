@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+"◌"
+);
 axes = (
 {
 name = Weight;
@@ -59998,9 +60001,19 @@ unicode = 9675;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2023-11-03 10:39:56 +0000";
+lastChange = "2023-11-19 06:02:17 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (240,-2);
+},
+{
+name = top;
+pos = (241,452);
+}
+);
 layerId = m01;
 shapes = (
 {
