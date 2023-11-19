@@ -267,9 +267,9 @@ But instead we have got:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, math, old-permic, tai-le, coptic, malayalam, syriac
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, canadian-aboriginal, tai-le, syriac, coptic, math, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -287,16 +287,16 @@ But instead we have got:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, gothic, caucasian-albanian, syriac
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, cherokee, syriac, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
- * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
- * U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
  * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
@@ -381,7 +381,7 @@ But instead we have got:
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: mongolian, thaana, soyombo, ahom, new-tai-lue, phags-pa, javanese, mende-kikakui, tagalog, tagbanwa, tamil, khudawadi, khmer, gujarati, newa, nko, tai-le, gunjala-gondi, gurmukhi, sharada, takri, sinhala, pahawh-hmong, grantha, wancho, caucasian-albanian, chakma, sundanese, khojki, symbols, buhid, lepcha, buginese, manichaean, marchen, kannada, thai, siddham, kayah-li, elbasan, music, batak, brahmi, mahajani, adlam, telugu, yi, kaithi, osage, syriac, modi, miao, oriya, bhaiksuki, hebrew, myanmar, duployan, bengali, sogdian, rejang, limbu, tibetan, tai-viet, hanifi-rohingya, mandaic, zanabazar-square, math, tirhuta, meetei-mayek, psalter-pahlavi, tifinagh, lao, malayalam, syloti-nagri, balinese, dogra, bassa-vah, hanunoo, devanagari, masaram-gondi, old-permic, cham, coptic, kharoshthi
+ * U+25CC DOTTED CIRCLE: try adding one of: syriac, phags-pa, nko, limbu, dogra, modi, takri, sogdian, caucasian-albanian, gurmukhi, tirhuta, marchen, buhid, kannada, duployan, khmer, pahawh-hmong, brahmi, batak, buginese, psalter-pahlavi, coptic, new-tai-lue, lepcha, khudawadi, masaram-gondi, kayah-li, symbols, bassa-vah, gunjala-gondi, music, kaithi, bhaiksuki, mende-kikakui, syloti-nagri, elbasan, thai, miao, mongolian, old-permic, hanifi-rohingya, tai-le, tamil, oriya, javanese, balinese, sharada, mandaic, cham, kharoshthi, grantha, lao, sundanese, zanabazar-square, tagbanwa, osage, devanagari, soyombo, hanunoo, sinhala, yi, siddham, bengali, telugu, gujarati, manichaean, myanmar, malayalam, adlam, tagalog, wancho, khojki, rejang, tibetan, hebrew, thaana, math, newa, tifinagh, chakma, meetei-mayek, mahajani, ahom, tai-viet
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -2480,7 +2480,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 460:
-equal, multiply
+multiply, equal
 
 Width = 486:
 greater
@@ -3047,9 +3047,9 @@ lessequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊ i̦̋ i̦̍ i̦̐ i̦̒ i̦̓ i̦᷄ i̦᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
