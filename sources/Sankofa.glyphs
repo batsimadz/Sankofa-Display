@@ -1,9 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"◌"
-);
 axes = (
 {
 name = Weight;
@@ -351,6 +348,12 @@ fontMaster = (
 {
 axesValues = (
 0
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+}
 );
 id = m01;
 metricValues = (
@@ -65329,7 +65332,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 Sankofa Display (https://github.com/batsimadz/Sankofa-Display)";
+value = "Copyright 2023 Sankofa Display Project Authors (https://github.com/batsimadz/Sankofa-Display)";
 }
 );
 },
