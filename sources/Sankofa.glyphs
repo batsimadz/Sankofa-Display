@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+Q
+);
 axes = (
 {
 name = Weight;
@@ -364,7 +367,7 @@ value = 315;
 },
 {
 name = hheaAscender;
-value = 800;
+value = 1000;
 },
 {
 name = hheaDescender;
@@ -372,7 +375,7 @@ value = -200;
 },
 {
 name = typoAscender;
-value = 800;
+value = 1000;
 },
 {
 name = typoDescender;
@@ -387,7 +390,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 800;
+pos = 1000;
 },
 {
 over = 16;
@@ -13841,7 +13844,7 @@ unicode = 11363;
 },
 {
 glyphname = Q;
-lastChange = "2023-11-11 07:32:02 +0000";
+lastChange = "2023-11-19 10:23:45 +0000";
 layers = (
 {
 anchors = (
@@ -13851,7 +13854,7 @@ pos = (287,0);
 },
 {
 name = top;
-pos = (287,700);
+pos = (262,700);
 }
 );
 layerId = m01;
