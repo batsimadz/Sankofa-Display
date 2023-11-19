@@ -3,8 +3,8 @@
 .formatVersion = 3;
 DisplayStrings = (
 "̆ă",
-"/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb ̆/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷊̈̇̀/gravecomb_macroncomb ́́-̄/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄́̀/macroncomb_gravecomb ̄/macroncomb_acutecomb ̉̍̒̓̕",
-"ẴẪÃỄẼḚĨḬⱢÑƟỖỠÕṌṎȬỮŨṴ̃́ṴṼỸ/brevecomb_tildecomb ẵ̃/circumflexcomb_tildecomb ẫã/circumflexcomb_tildecomb ễḛ̃ḛḭ̃ḭɫñỗỡõṍṏȭữũṹṵ̃ṽỹ"
+"Ɫ",
+"ɫ"
 );
 axes = (
 {
@@ -29253,7 +29253,7 @@ unicode = 7739;
 },
 {
 glyphname = lmiddletilde;
-lastChange = "2023-11-03 05:13:10 +0000";
+lastChange = "2023-11-19 10:59:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -29265,8 +29265,8 @@ ref = l;
 },
 {
 alignment = -1;
-pos = (-5,-339);
-ref = tilde;
+pos = (-5,-327);
+ref = tildecomb;
 }
 );
 width = 415;
