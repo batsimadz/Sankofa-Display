@@ -1,11 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"̆ă",
-"Ɫ",
-"ɫ"
-);
 axes = (
 {
 name = Weight;
@@ -384,8 +379,8 @@ name = typoDescender;
 value = -200;
 },
 {
-name = "prep Table Assembly";
-value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
+name = typoLineGap;
+value = 0;
 }
 );
 id = m01;
@@ -65731,6 +65726,10 @@ value = "https://scripts.sil.org/OFL";
 {
 key = designerURL;
 value = "https://www.madzonga.com";
+},
+{
+key = vendorID;
+value = "2377";
 }
 );
 settings = {
