@@ -353,6 +353,18 @@ customParameters = (
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = winAscent;
+value = 1081;
+},
+{
+name = winDescent;
+value = 315;
+},
+{
+name = hheaAscender;
+value = 800;
 }
 );
 id = m01;
@@ -65332,7 +65344,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 Sankofa Display Project Authors (https://github.com/batsimadz/Sankofa-Display)";
+value = "Copyright 2023 Batsirai Madzonga (https://github.com/batsimadz/Sankofa-Display)";
 }
 );
 },
