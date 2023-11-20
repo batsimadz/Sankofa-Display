@@ -377,10 +377,6 @@ value = 1000;
 {
 name = typoDescender;
 value = -200;
-},
-{
-name = typoLineGap;
-value = 0;
 }
 );
 id = m01;
