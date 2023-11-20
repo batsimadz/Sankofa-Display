@@ -9112,6 +9112,7 @@ width = 493;
 }
 );
 unicode = 7728;
+changeCount = 1;
 },
 {
 glyphname = Kcaron;
@@ -9132,6 +9133,7 @@ width = 493;
 }
 );
 unicode = 488;
+changeCount = 1;
 },
 {
 glyphname = Kcommaaccent;
@@ -9152,6 +9154,7 @@ width = 493;
 }
 );
 unicode = 310;
+changeCount = 1;
 },
 {
 glyphname = Kdotbelow;
@@ -9172,6 +9175,7 @@ width = 493;
 }
 );
 unicode = 7730;
+changeCount = 1;
 },
 {
 glyphname = Khook;
@@ -9452,6 +9456,7 @@ width = 493;
 }
 );
 unicode = 7732;
+changeCount = 1;
 },
 {
 glyphname = Kstroke;
@@ -9473,6 +9478,7 @@ width = 493;
 }
 );
 unicode = 42816;
+changeCount = 1;
 },
 {
 glyphname = L;
