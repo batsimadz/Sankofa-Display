@@ -2,10 +2,17 @@
 
 # Sankofa Display
 
-Sankofa Display is a captivating African typeface that draws inspiration from a rich tapestry of African art styles, with a particular focus on straight-line geometric designs. This typeface embodies the essence of Africa's diverse cultural heritage, blending elements from various artistic traditions.
+Sankofa Display is a typeface that draws inspiration from African art styles, with a focus on straight-line geometric designs.
 
+## Inspiration
 
-## About
+* _Zimbabwean clay pot:_ Rooted in African heritage, the typeface harmonizes straight lines with circles and dots, mirroring the intricate patterns seen in everyday items like the Zimbabwean clay pot. Growing up surrounded by these designs, I drew influence from their geometric precision.
+
+* _Zimbabwe bird:_ This stone-carved bird is the national emblem of Zimbabwe, appearing on the national flag and coats of arms. The hungwe, Zimbabwean bird, contributes to the typeface with its intricate geometric motifs found at the base of the sculptures.
+
+* _Zulu bead work & art:_ The vibrant Zulu traditional patterns add a colorful palette, creating a visually captivating and culturally resonant typeface that celebrates Africa’s geometric heritage in a concise and impactful manner.
+
+## About the author
 
 After graduating from the University of Cape Town with a BSc in Computer Science, Batsi took his enthusiasm for digital platforms and entrepreneurship to start his own design agency. This period was instrumental in enhancing his skills set ranging from creative campaign ideation, software/website development, product design, and business development. 
  
