@@ -6,13 +6,17 @@ Sankofa Display is a typeface that draws inspiration from African art styles, wi
 
 ## Inspiration
 
-###Zimbabwean clay pot### 
+### Zimbabwean clay pot ### 
 
 Rooted in African heritage, the typeface harmonizes straight lines with circles and dots, mirroring the intricate patterns seen in everyday items like the Zimbabwean clay pot. Growing up surrounded by these designs, I drew influence from their geometric precision.
 
-* __Zimbabwe bird:__ This stone-carved bird is the national emblem of Zimbabwe, appearing on the national flag and coats of arms. The hungwe, Zimbabwean bird, contributes to the typeface with its intricate geometric motifs found at the base of the sculptures.
+### Zimbabwe bird ### 
 
-* __Zulu bead work & art:__ The vibrant Zulu traditional patterns add a colorful palette, creating a visually captivating and culturally resonant typeface that celebrates Africa’s geometric heritage in a concise and impactful manner.
+This stone-carved bird is the national emblem of Zimbabwe, appearing on the national flag and coats of arms. The hungwe, Zimbabwean bird, contributes to the typeface with its intricate geometric motifs found at the base of the sculptures.
+
+### Zulu bead work & art ### 
+
+The vibrant Zulu traditional patterns add a colorful palette, creating a visually captivating and culturally resonant typeface that celebrates Africa’s geometric heritage in a concise and impactful manner.
 
 ## About the author
 
