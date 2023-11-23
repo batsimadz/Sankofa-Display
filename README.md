@@ -1,6 +1,6 @@
 ![Sample Image](documentation/cover.jpg)
 
-# Sankofa
+# Sankofa Display
 
 [![][Fontbakery]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
 [![][Universal]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
