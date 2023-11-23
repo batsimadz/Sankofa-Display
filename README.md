@@ -11,12 +11,7 @@ After graduating from the University of Cape Town with a BSc in Computer Science
  
 His success then led him to roles within Africa and the Middle East where he now heads the design department at Abu Dhabi Islamic Bank in the capacity of Assistant Vice President, Head of Design & Experience.
 
-His recent book available on Amazon, Devign Intervention is a collection of actionable tips on how he went from a graphic designer to Head of Design by the age of 35! It’s an easy read that allows you to not only level up your craft but add value to your company in new and tangible ways.
-
-Links:
-Website: https://www.madzonga.com
-Book: https://www.amazon.com/dp/B0C91DKWK6
-LinkedIn: https://www.linkedin.com/in/batsi
+Website: https://www.sankofadisplay.com
 
 
 ## Changelog
