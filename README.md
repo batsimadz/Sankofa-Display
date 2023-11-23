@@ -1,3 +1,5 @@
+![Sample Image](documentation/cover.jpg)
+
 # Sankofa
 
 [![][Fontbakery]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
