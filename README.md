@@ -38,19 +38,7 @@ https://scripts.sil.org/OFL
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
 
-Three or more...
-
 ---
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
 
 [![][Fontbakery]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
 [![][Universal]](https://batsimadz.github.io/Sankofa-Display/fontbakery/fontbakery-report.html)
