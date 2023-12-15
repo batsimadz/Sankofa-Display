@@ -1,4 +1,4 @@
-![Sample Image](documentation/cover.jpg)
+![Sample Image](documentation/sankofa-cover.jpg)
 
 # Sankofa Display
 
