@@ -1,8 +1,11 @@
-![Sample Image](documentation/cover.jpg)
+![Sample Image](documentation/sankofa-cover.jpg)
 
 # Sankofa Display
 
 Sankofa Display is a typeface that draws inspiration from African art styles, with a focus on straight-line geometric designs.
+
+Website: https://www.sankofadisplay.com
+
 
 ## Inspiration
 
@@ -23,8 +26,6 @@ The vibrant Zulu traditional patterns add a colorful palette, creating a visuall
 After graduating from the University of Cape Town with a BSc in Computer Science, Batsi took his enthusiasm for digital platforms and entrepreneurship to start his own design agency. This period was instrumental in enhancing his skills set ranging from creative campaign ideation, software/website development, product design, and business development. 
  
 His success then led him to roles within Africa and the Middle East where he now heads the design department at Abu Dhabi Islamic Bank in the capacity of Assistant Vice President, Head of Design & Experience.
-
-Website: https://www.sankofadisplay.com
 
 
 ## Changelog
