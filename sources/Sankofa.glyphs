@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+"ț"
+);
 axes = (
 {
 name = Weight;
@@ -10,7 +13,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gcommaaccent H I IJ Iacute Icircumflex Idieresis Igrave Imacron Iogonek J Jacute K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Germandbls T Tcaron Tcedilla U Uacute Ucircumflex Udieresis Ugrave Uhorn Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adieresismacron Adotaccent Adotbelow Adotmacron Agrave Ahookabove Ainvertedbreve Alpha-latin Amacron Aogonek Aring Aringbelow Astroke Atilde AE AEmacron B Bdotaccent Bdotbelow Beta-latin Bhook Bmacronbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent Chi-latin Chook Cstroke D Eth Dcaron Dcedilla Dcircumflexbelow Dcroat Ddotaccent Ddotbelow Dhook Dmacronbelow Dtail E Eacute Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexbelow Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Eopen Ereversed Esh Estroke Etilde Etildebelow Schwa Ezh Ezhcaron Ezhreversed F Fdotaccent Fhook G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ghook Glottalstop Gmacron Gstroke H Hbar Hbrevebelow Hcaron Hcedilla Hcircumflex Hdieresis Hdotaccent Hdotbelow Heng Hhook Hturned I IJ Iacute Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Iota-latin Istroke Itilde Itildebelow J Jacute Jcircumflex Jcrossedtail Jstroke K Kacute Kcaron Kcommaaccent Kdotbelow Khook Kmacronbelow Kstroke L Lacute Lbar Lbelt Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Ldoublebar Lmacronbelow Lmiddletilde Lslash M Macute Mdotaccent Mdotbelow Mturned N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Ngrave Nhookleft Nlongrightleg Nmacronbelow Ntilde Eng O OU Oacute Ocaron Ocenteredtilde Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Omega-latin Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Pacute Pdotaccent Phook Thorn Pstroke Q Qhooktail R Racute Rcaron Rcommaaccent Rdblgrave Rdotaccent Rdotbelow Rdotbelowmacron Rinvertedbreve Rmacronbelow Rstroke Rtail S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Sobliquestroke T Tbar Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdiagonalstroke Tdotaccent Tdotbelow Thook Tmacronbelow Tretroflexhook U Uacute Ubar Ubreve Ucaron Ucircumflex Ucircumflexbelow Udblgrave Udieresis Udieresisacute Udieresisbelow Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Upsilon-latin Uring Utilde Utildeacute Utildebelow V Gamma-latin Vdotbelow Vhook Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave Whook X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ystroke Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zmacronbelow Zstroke S.001 F.alt Lcommaaccent.loclMAH Ncommaaccent.loclMAH Omega";
 name = Uppercase;
 }
 );
@@ -82,7 +85,6 @@ feature numr;
 feature dnom;
 feature frac;
 feature ordn;
-feature pnum;
 feature tnum;
 feature case;
 feature zero;
@@ -294,21 +296,6 @@ tag = ordn;
 },
 {
 automatic = 1;
-code = "sub zero.tf by zero;
-sub one.tf by one;
-sub two.tf by two;
-sub three.tf by three;
-sub four.tf by four;
-sub five.tf by five;
-sub six.tf by six;
-sub seven.tf by seven;
-sub eight.tf by eight;
-sub nine.tf by nine;
-";
-tag = pnum;
-},
-{
-automatic = 1;
 code = "sub zero by zero.tf;
 sub one by one.tf;
 sub two by two.tf;
@@ -331,6 +318,8 @@ tag = case;
 {
 automatic = 1;
 code = "lookupflag IgnoreMarks;
+sub f f i by f_f_i;
+sub f f l by f_f_l;
 sub f f by f_f;
 sub f i by f_i;
 sub f l by fl;
@@ -406,9 +395,8 @@ over = -16;
 );
 name = Regular;
 stemValues = (
-0,
-0,
-0
+30.9,
+34
 );
 }
 );
@@ -11498,7 +11486,7 @@ unicode = 330;
 },
 {
 glyphname = O;
-lastChange = "2024-01-17 16:03:21 +0000";
+lastChange = "2024-01-20 07:29:26 +0000";
 layers = (
 {
 anchors = (
@@ -11532,8 +11520,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(414,-6,ls),
-(422,-6,o),
+(414,-3,ls),
+(422,-3,o),
 (432,1,o),
 (439,7,cs),
 (442,9,o),
@@ -11559,22 +11547,22 @@ nodes = (
 (451,606,o),
 (451,611,cs),
 (451,646,ls),
-(451,658,o),
-(450,670,o),
-(450,682,cs),
-(450,688,o),
-(442,695,o),
-(436,698,cs),
-(432,700,o),
-(425,698,o),
-(420,698,cs),
-(78,698,ls),
-(72,698,o),
-(66,699,o),
-(61,698,cs),
-(55,698,o),
-(45,686,o),
-(45,679,cs),
+(451,660,o),
+(450,672,o),
+(450,684,cs),
+(450,690,o),
+(442,697,o),
+(436,700,cs),
+(432,702,o),
+(425,700,o),
+(420,700,cs),
+(78,700,ls),
+(72,700,o),
+(66,701,o),
+(61,700,cs),
+(55,700,o),
+(45,688,o),
+(45,681,cs),
 (45,629,ls),
 (45,619,o),
 (46,609,o),
@@ -11589,25 +11577,25 @@ nodes = (
 (45,457,o),
 (45,450,o),
 (45,444,c),
-(45,25,ls),
-(45,12,o),
-(54,3,o),
-(66,3,c),
-(160,3,o),
-(171,4,o),
-(179,0,cs),
-(190,-7,o),
-(195,3,o),
-(205,3,cs),
-(310,3,o),
-(320,0,o),
-(327,3,cs),
-(337,6,o),
-(343,-11,o),
+(45,22,ls),
+(45,9,o),
+(54,0,o),
+(66,0,c),
+(160,0,o),
+(171,1,o),
+(179,-3,cs),
+(190,-10,o),
+(195,0,o),
+(205,0,cs),
+(310,0,o),
+(320,-2,o),
+(327,1,cs),
+(337,4,o),
+(343,-13,o),
 (353,3,c),
 (362,-3,o),
-(372,-6,o),
-(382,-6,cs)
+(372,-3,o),
+(382,-3,cs)
 );
 },
 {
@@ -11653,15 +11641,15 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(179,36,o),
-(170,37,o),
-(161,37,cs),
-(78,37,ls),
-(73,37,o),
-(68,45,o),
-(72,49,cs),
-(78,57,o),
-(79,64,o),
+(179,33,o),
+(170,34,o),
+(161,34,cs),
+(78,34,ls),
+(73,34,o),
+(68,42,o),
+(72,46,cs),
+(78,54,o),
+(79,62,o),
 (79,73,cs),
 (79,120,ls),
 (79,128,o),
@@ -11696,11 +11684,11 @@ nodes = (
 (71,347,c),
 (71,647,l),
 (72,654,o),
-(82,663,o),
-(89,663,cs),
-(401,663,ls),
-(417,663,o),
-(417,663,o),
+(82,665,o),
+(89,665,cs),
+(401,665,ls),
+(417,665,o),
+(417,665,o),
 (417,646,cs),
 (417,490,ls),
 (417,481,o),
@@ -11733,26 +11721,26 @@ nodes = (
 (406,202,o),
 (421,194,o),
 (409,186,c),
-(409,51,l),
-(409,44,o),
-(408,37,o),
-(404,30,c),
-(389,30,o),
-(374,29,o),
-(358,29,cs),
-(257,29,ls),
-(248,29,o),
-(238,27,o),
-(229,34,cs),
-(226,36,o),
-(216,28,o),
-(211,30,cs),
-(205,32,o),
-(200,38,o),
-(194,30,c),
-(192,29,o),
-(187,28,o),
-(186,29,cs)
+(409,49,l),
+(409,42,o),
+(408,35,o),
+(404,28,c),
+(389,28,o),
+(374,27,o),
+(358,27,cs),
+(257,26,ls),
+(248,26,o),
+(238,24,o),
+(229,31,cs),
+(226,33,o),
+(216,25,o),
+(211,27,cs),
+(205,29,o),
+(200,35,o),
+(194,27,c),
+(192,26,o),
+(187,25,o),
+(186,26,cs)
 );
 }
 );
@@ -31272,7 +31260,7 @@ unicode = 331;
 },
 {
 glyphname = o;
-lastChange = "2024-01-17 16:04:38 +0000";
+lastChange = "2024-01-20 07:30:20 +0000";
 layers = (
 {
 anchors = (
@@ -31327,7 +31315,7 @@ nodes = (
 (405,449,o),
 (399,449,c),
 (309,450,o),
-(143,453,o),
+(143,450,o),
 (40,449,c),
 (40,366,o),
 (40,272,o),
@@ -44667,7 +44655,7 @@ unicode = 8320;
 },
 {
 glyphname = oneinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44686,7 +44674,7 @@ unicode = 8321;
 },
 {
 glyphname = twoinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44705,7 +44693,7 @@ unicode = 8322;
 },
 {
 glyphname = threeinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44724,7 +44712,7 @@ unicode = 8323;
 },
 {
 glyphname = fourinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44743,7 +44731,7 @@ unicode = 8324;
 },
 {
 glyphname = fiveinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44762,7 +44750,7 @@ unicode = 8325;
 },
 {
 glyphname = sixinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44781,7 +44769,7 @@ unicode = 8326;
 },
 {
 glyphname = seveninferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44800,7 +44788,7 @@ unicode = 8327;
 },
 {
 glyphname = eightinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -44819,7 +44807,7 @@ unicode = 8328;
 },
 {
 glyphname = nineinferior;
-lastChange = "2024-01-19 06:18:36 +0000";
+lastChange = "2024-01-20 07:27:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -68047,14 +68035,25 @@ horizontal = 1;
 name = hStem0;
 },
 {
-horizontal = 1;
-name = hStem1;
-},
-{
 name = vStem0;
 }
 );
 unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+HH = "30.9";
+HV = "42.7";
+OH = "35";
+OV = "34";
+nV = "34";
+nd = "35";
+oH = "32";
+oV = "33";
+tH = "35";
+};
+};
+};
 versionMajor = 1;
 versionMinor = 0;
 }
