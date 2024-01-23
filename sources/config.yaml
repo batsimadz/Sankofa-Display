@@ -1,12 +1,3 @@
 sources:
   -  Sankofa.glyphs
-outputDir: "../fonts"
-buildStatic: true
-buildVariable: false
-buildTTF: true
-buildOTF: false
-buildWebfont: false
-cleanUp: true
-includeSourceFixes: false
-interpolate: true
 familyName: Sankofa Display
