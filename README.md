@@ -9,8 +9,6 @@ Website: https://www.sankofadisplay.com
 
 ## Inspiration
 
-![Sample Image](documentation/inspiration.jpg)
-
 ### Zimbabwean clay pot ### 
 
 Rooted in African heritage, the typeface harmonizes straight lines with circles and dots, mirroring the intricate patterns seen in everyday items like the Zimbabwean clay pot. Growing up surrounded by these designs, I drew influence from their geometric precision.
@@ -24,6 +22,10 @@ This stone-carved bird is the national emblem of Zimbabwe, appearing on the nati
 The vibrant Zulu traditional patterns add a colorful palette, creating a visually captivating and culturally resonant typeface that celebrates Africa’s geometric heritage in a concise and impactful manner.
 
 ![Sample Image](documentation/1.jpg)
+
+![Sample Image](documentation/2.jpg)
+
+![Sample Image](documentation/3.jpg)
 
 ## About the author
 
