@@ -1,4 +1,9 @@
 sources:
   -  Sankofa.glyphs
+buildStatic: true
+buildVariable: false
+buildTTF: true
 buildOTF: false
+buildWebfont: true
+cleanUp: true
 familyName: Sankofa Display
