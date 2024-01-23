@@ -26,6 +26,11 @@ The vibrant Zulu traditional patterns add a colorful palette, creating a visuall
 ![Sample Image](documentation/2.jpg)
 ![Sample Image](documentation/3.jpg)
 
+## Thanks to
+Thomas Phinney
+Nathan Willis
+Lisa Huang
+Dave Crossland
 
 ## Changelog
 
