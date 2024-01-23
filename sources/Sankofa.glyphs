@@ -2,7 +2,7 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"̇Ṅ"
+"Ĺ"
 );
 axes = (
 {
@@ -9783,7 +9783,7 @@ unicode = 76;
 },
 {
 glyphname = Lacute;
-lastChange = "2024-01-23 04:29:00 +0000";
+lastChange = "2024-01-23 07:10:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -9792,7 +9792,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (-29,134);
+alignment = -1;
+pos = (16,134);
 ref = acutecomb;
 }
 );
@@ -10620,7 +10621,7 @@ unicode = 77;
 },
 {
 glyphname = Macute;
-lastChange = "2024-01-23 04:29:00 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -10629,7 +10630,7 @@ shapes = (
 ref = M;
 },
 {
-pos = (229,143);
+pos = (244,143);
 ref = acutecomb;
 }
 );
@@ -26009,7 +26010,7 @@ unicode = 583;
 },
 {
 glyphname = etilde;
-lastChange = "2024-01-23 04:16:13 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -26018,7 +26019,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (99,-164);
+pos = (99,-178);
 ref = tildecomb;
 }
 );
@@ -28707,7 +28708,7 @@ unicode = 616;
 },
 {
 glyphname = itilde;
-lastChange = "2024-01-17 15:07:50 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -28716,7 +28717,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (61,-164);
+pos = (61,-178);
 ref = tildecomb;
 }
 );
@@ -31156,7 +31157,7 @@ unicode = 7753;
 },
 {
 glyphname = ntilde;
-lastChange = "2024-01-17 16:06:50 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -31165,7 +31166,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (108,-164);
+pos = (108,-178);
 ref = tildecomb;
 }
 );
@@ -31974,7 +31975,7 @@ unicode = 7905;
 },
 {
 glyphname = ohungarumlaut;
-lastChange = "2023-12-16 07:34:44 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -31983,7 +31984,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (98,-130);
+pos = (98,-145);
 ref = hungarumlautcomb;
 }
 );
@@ -32694,7 +32695,7 @@ unicode = 511;
 },
 {
 glyphname = otilde;
-lastChange = "2024-01-17 15:08:35 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -32703,7 +32704,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (98,-164);
+pos = (98,-178);
 ref = tildecomb;
 }
 );
@@ -32738,7 +32739,7 @@ unicode = 7757;
 },
 {
 glyphname = otildedieresis;
-lastChange = "2024-01-17 15:08:35 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -32747,11 +32748,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (98,-164);
+pos = (98,-178);
 ref = tildecomb;
 },
 {
-pos = (77,-34);
+pos = (77,-39);
 ref = dieresiscomb;
 }
 );
@@ -36553,7 +36554,7 @@ unicode = 7919;
 },
 {
 glyphname = uhungarumlaut;
-lastChange = "2023-11-11 06:31:48 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -36562,7 +36563,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (112,-130);
+pos = (112,-145);
 ref = hungarumlautcomb;
 }
 );
@@ -36832,7 +36833,7 @@ unicode = 367;
 },
 {
 glyphname = utilde;
-lastChange = "2024-01-17 15:08:35 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -36841,7 +36842,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (112,-164);
+pos = (112,-178);
 ref = tildecomb;
 }
 );
@@ -37225,7 +37226,7 @@ unicode = 651;
 },
 {
 glyphname = vtilde;
-lastChange = "2024-01-17 15:08:35 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -37234,7 +37235,7 @@ shapes = (
 ref = v;
 },
 {
-pos = (98,-167);
+pos = (98,-181);
 ref = tildecomb;
 }
 );
@@ -38489,7 +38490,7 @@ unicode = 591;
 },
 {
 glyphname = ytilde;
-lastChange = "2024-01-17 15:08:35 +0000";
+lastChange = "2024-01-23 07:10:38 +0000";
 layers = (
 {
 layerId = m01;
@@ -38498,7 +38499,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (101,-165);
+pos = (101,-179);
 ref = tildecomb;
 }
 );
