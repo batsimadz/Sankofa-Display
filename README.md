@@ -21,6 +21,8 @@ This stone-carved bird is the national emblem of Zimbabwe, appearing on the nati
 
 The vibrant Zulu traditional patterns add a colorful palette, creating a visually captivating and culturally resonant typeface that celebrates Africa’s geometric heritage in a concise and impactful manner.
 
+![Sample Image](documentation/4.jpg)
+
 ![Sample Image](documentation/1.jpg)
 
 ![Sample Image](documentation/2.jpg)
