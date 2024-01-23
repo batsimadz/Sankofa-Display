@@ -9,6 +9,8 @@ Website: https://www.sankofadisplay.com
 
 ## Inspiration
 
+![Sample Image](documentation/inspiration.jpg)
+
 ### Zimbabwean clay pot ### 
 
 Rooted in African heritage, the typeface harmonizes straight lines with circles and dots, mirroring the intricate patterns seen in everyday items like the Zimbabwean clay pot. Growing up surrounded by these designs, I drew influence from their geometric precision.
