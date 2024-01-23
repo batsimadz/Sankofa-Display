@@ -2,7 +2,7 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"MṂ"
+"̇Ṅ"
 );
 axes = (
 {
@@ -24,30 +24,7 @@ value = (
 );
 },
 {
-name = panose;
-value = (
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
 name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Use Line Breaks";
-value = 1;
-},
-{
-name = "Enforce Compatibility Check";
 value = 1;
 }
 );
@@ -336,13 +313,9 @@ tag = zero;
 fontMaster = (
 {
 axesValues = (
-0
+400
 );
 customParameters = (
-{
-name = typoLineGap;
-value = 0;
-},
 {
 name = winAscent;
 value = 1081;
@@ -394,10 +367,6 @@ over = -16;
 }
 );
 name = Regular;
-stemValues = (
-30.9,
-34
-);
 }
 );
 glyphs = (
@@ -67911,7 +67880,7 @@ unicode = 42937;
 instances = (
 {
 axesValues = (
-0
+400
 );
 instanceInterpolations = {
 m01 = 1;
@@ -68005,7 +67974,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Sankofa Display Project Authors (https://github.com/batsimadz/Sankofa-Display), with Reserved Font Name \"Sankofa Display\".";
+value = "Copyright 2024 The Sankofa Display Project Authors (https://github.com/batsimadz/Sankofa-Display), with Reserved Font Name \"Sankofa Display\".";
 }
 );
 },
@@ -68025,22 +67994,6 @@ value = "https://scripts.sil.org/OFL";
 {
 key = designerURL;
 value = "https://www.madzonga.com";
-},
-{
-key = vendorID;
-value = "2377";
-}
-);
-settings = {
-disablesNiceNames = 1;
-};
-stems = (
-{
-horizontal = 1;
-name = hStem0;
-},
-{
-name = vStem0;
 }
 );
 unitsPerEm = 1000;
