@@ -4,6 +4,7 @@ buildStatic: true
 buildVariable: false
 buildTTF: true
 buildOTF: false
+autohintOTF: false
 buildWebfont: true
 cleanUp: true
 familyName: Sankofa Display
