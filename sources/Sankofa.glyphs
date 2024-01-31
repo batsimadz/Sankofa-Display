@@ -2,7 +2,8 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"ɲ"
+"ɲ",
+"ffi if fl lf il"
 );
 axes = (
 {
@@ -26035,7 +26036,7 @@ unicode = 441;
 },
 {
 glyphname = f;
-lastChange = "2024-01-29 13:13:38 +0000";
+lastChange = "2024-01-31 17:07:26 +0000";
 layers = (
 {
 anchors = (
@@ -27589,7 +27590,7 @@ unicode = 613;
 },
 {
 glyphname = i;
-lastChange = "2023-12-16 08:22:03 +0000";
+lastChange = "2024-01-31 17:07:44 +0000";
 layers = (
 {
 anchors = (
@@ -29111,7 +29112,7 @@ unicode = 42817;
 },
 {
 glyphname = l;
-lastChange = "2024-01-29 13:44:21 +0000";
+lastChange = "2024-01-31 17:07:06 +0000";
 layers = (
 {
 anchors = (
@@ -66458,6 +66459,18 @@ N = 0;
 };
 B = {
 "@MMK_R_a" = 30;
+};
+f = {
+f = 10;
+i = 0;
+l = 20;
+};
+i = {
+f = 0;
+l = 0;
+};
+l = {
+f = -20;
 };
 one = {
 "@MMK_R_0" = -40;
