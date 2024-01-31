@@ -27720,25 +27720,6 @@ width = 374;
 unicode = 305;
 },
 {
-glyphname = idotless_ogonek;
-lastChange = "2024-01-31 14:37:15 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (153,-1);
-ref = ogonekcomb;
-}
-);
-width = 374;
-}
-);
-},
-{
 glyphname = iacute;
 lastChange = "2024-01-23 04:29:00 +0000";
 layers = (
