@@ -1,10 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"ɲ",
-"Ľď/caroncomb.alt ľť"
-);
 axes = (
 {
 name = Weight;
