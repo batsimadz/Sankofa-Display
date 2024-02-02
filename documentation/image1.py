@@ -15,15 +15,15 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
+WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1200, 128, 1
 FONT_PATH = "fonts/ttf/SankofaDisplay-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
-AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "Aa"
-BIG_TEXT_FONT_SIZE = 1024
-BIG_TEXT_SIDE_MARGIN = MARGIN * 3.1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.5
+AUXILIARY_FONT_SIZE = 28
+BIG_TEXT = "AaBb1!&"
+BIG_TEXT_FONT_SIZE = 550
+BIG_TEXT_SIDE_MARGIN = MARGIN * 1
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 3
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
