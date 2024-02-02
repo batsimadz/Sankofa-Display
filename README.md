@@ -34,8 +34,6 @@ Dave Crossland
 
 ## About the author
 
-Sure, I can help you with that. Here is a possible paragraph for your website:
-
 Batsi is a design leader and speaker who advocates for cultural authenticity and inclusion in design. As a passionate designer, he celebrates diversity, challenges stereotypes, and empowers communities through his work. He represents African design on a global scale, showcasing its richness, creativity, and innovation. He also shares his insights and experiences on how to design with respect, empathy, and collaboration at various events and conferences.
 
 ## Changelog
