@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3236";
 .formatVersion = 3;
 DisplayStrings = (
 "ʘ"
@@ -36,34 +36,16 @@ name = vendorID;
 value = BM86;
 },
 {
-name = unicodeRanges;
+name = "meta Table";
 value = (
-0,
-1,
-2,
-3,
-29,
-31,
-32,
-33,
-36,
-37,
-38
-);
+{
+data = en;
+tag = dlng;
 },
 {
-name = panose;
-value = (
-4,
-0,
-5,
-5,
-0,
-1,
-7,
-1,
-2,
-2
+data = Latn;
+tag = slng;
+}
 );
 }
 );
@@ -402,7 +384,6 @@ over = -16;
 pos = -200;
 },
 {
-over = -16;
 }
 );
 name = Regular;
@@ -67183,6 +67164,24 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 The Sankofa Display Project Authors (https://github.com/batsimadz/Sankofa-Display)";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = ENG;
+value = "Sankofa Display is a typeface that draws inspiration from African art styles, with a focus on straight-line geometric designs.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -67192,26 +67191,8 @@ value = "Batsirai Madzonga";
 );
 },
 {
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Batsirai Madzonga";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "http://www.google.com/fonts";
-},
-{
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2024 The Sankofa Display Project Authors (https://github.com/batsimadz/Sankofa-Display)";
-}
-);
+key = designerURL;
+value = "https://www.madzonga.com";
 },
 {
 key = licenses;
@@ -67227,25 +67208,21 @@ key = licenseURL;
 value = "https://openfontlicense.org";
 },
 {
-key = designerURL;
-value = "https://www.madzonga.com";
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Batsirai Madzonga";
+}
+);
 },
 {
-key = vendorID;
-value = BM86;
+key = manufacturerURL;
+value = "http://www.google.com/fonts";
 },
 {
 key = postscriptFontName;
 value = "Sankofa-Display";
-},
-{
-key = descriptions;
-values = (
-{
-language = ENG;
-value = "Sankofa Display is a typeface that draws inspiration from African art styles, with a focus on straight-line geometric designs.";
-}
-);
 },
 {
 key = postscriptFullName;
@@ -67268,6 +67245,10 @@ language = dflt;
 value = "Sankofa Display is a trademark of Google Inc.";
 }
 );
+},
+{
+key = vendorID;
+value = BM86;
 }
 );
 unitsPerEm = 1000;
