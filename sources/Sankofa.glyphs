@@ -67086,6 +67086,21 @@ instances = (
 axesValues = (
 400
 );
+customParameters = (
+{
+name = "meta Table";
+value = (
+{
+data = en;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
+}
+);
 instanceInterpolations = {
 m01 = 1;
 };
