@@ -34,6 +34,37 @@ value = 1;
 {
 name = vendorID;
 value = BM86;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+3,
+29,
+31,
+32,
+33,
+36,
+37,
+38
+);
+},
+{
+name = panose;
+value = (
+4,
+0,
+5,
+5,
+0,
+1,
+7,
+1,
+2,
+2
+);
 }
 );
 date = "2023-10-02 05:34:29 +0000";
@@ -67226,6 +67257,15 @@ values = (
 {
 language = ENG;
 value = "Umuntu ngumuntu ngabantu";
+}
+);
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Sankofa Display is a trademark of Google Inc.";
 }
 );
 }
