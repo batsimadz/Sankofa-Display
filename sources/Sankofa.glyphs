@@ -16,19 +16,6 @@ name = Uppercase;
 );
 customParameters = (
 {
-name = "meta Table";
-value = (
-{
-data = en;
-tag = dlng;
-},
-{
-data = "Latn, canadian-aboriginal, math, tai-le, canadian-aboriginal, syriac, tifinagh, malayalam, coptic, old-permic";
-tag = slng;
-}
-);
-},
-{
 name = fsType;
 value = (
 );
@@ -67265,11 +67252,11 @@ customParameters = (
 name = "meta Table";
 value = (
 {
-data = en;
+data = "en, math, symbols";
 tag = dlng;
 },
 {
-data = "Latn, canadian-aboriginal, math, symbols, tai-le, canadian-aboriginal, syriac, tifinagh, malayalam, coptic, old-permic";
+data = "Latn, canadian-aboriginal, tai-le, canadian-aboriginal, syriac, tifinagh, malayalam, coptic, old-permic";
 tag = slng;
 }
 );
