@@ -3,7 +3,7 @@ sources:
 buildStatic: true
 buildVariable: false
 buildTTF: true
-buildOTF: false
+buildOTF: true
 buildWebfont: true
 cleanUp: true
 familyName: Sankofa Display
