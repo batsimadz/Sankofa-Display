@@ -35,6 +35,14 @@ value = BM86;
 {
 name = "meta Table";
 value = (
+{
+data = en;
+tag = dlng;
+},
+{
+data = "basiceng , iu-Cans, Zmth, Zsym";
+tag = slng;
+}
 );
 }
 );
