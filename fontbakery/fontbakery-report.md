@@ -13,7 +13,7 @@ fontbakery version: 0.11.1
 | U+03C7: GREEK SMALL LETTER CHI | U+03A7: GREEK CAPITAL LETTER CHI |
 
  [code: missing-case-counterparts]
-</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[10] SankofaDisplay-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[9] SankofaDisplay-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/Sankofa-Display/Sankofa-Display/venv-test/lib/python3.10/site-packages/glyphsets/definitions/__init__.py)
@@ -60,17 +60,17 @@ fontbakery version: 0.11.1
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, canadian-aboriginal, math, malayalam, tifinagh, coptic, tai-le, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, tifinagh, coptic, syriac, canadian-aboriginal, math, old-permic, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -85,8 +85,8 @@ fontbakery version: 0.11.1
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, tifinagh, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, cherokee, tifinagh, syriac, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
@@ -131,14 +131,14 @@ fontbakery version: 0.11.1
  * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
  * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
  * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
- * U+2195 UP DOWN ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math
+ * U+2195 UP DOWN ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+2205 EMPTY SET: try adding math
  * U+2206 INCREMENT: try adding math
@@ -156,26 +156,26 @@ fontbakery version: 0.11.1
  * U+25AA BLACK SMALL SQUARE: try adding symbols
  * U+25AB WHITE SMALL SQUARE: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: tai-tham, hanifi-rohingya, pahawh-hmong, tagalog, hanunoo, myanmar, wancho, khmer, ahom, gurmukhi, sharada, limbu, saurashtra, lao, siddham, mahajani, new-tai-lue, armenian, thai, batak, cham, lepcha, masaram-gondi, brahmi, mende-kikakui, syloti-nagri, buhid, sogdian, grantha, duployan, canadian-aboriginal, mandaic, tagbanwa, gujarati, telugu, math, khudawadi, nko, elbasan, phags-pa, kannada, music, bengali, bhaiksuki, tai-le, miao, yi, malayalam, tibetan, gunjala-gondi, old-permic, takri, hebrew, caucasian-albanian, chakma, buginese, psalter-pahlavi, oriya, newa, warang-citi, symbols, khojki, soyombo, sundanese, tamil, dogra, devanagari, marchen, syriac, manichaean, kayah-li, thaana, mongolian, sinhala, rejang, modi, balinese, bassa-vah, kharoshthi, tirhuta, osage, adlam, zanabazar-square, meetei-mayek, kaithi, tai-viet, javanese, tifinagh, coptic
+ * U+25CC DOTTED CIRCLE: try adding one of: khudawadi, kaithi, kannada, zanabazar-square, tagbanwa, phags-pa, nko, bhaiksuki, sharada, wancho, bengali, buhid, symbols, old-permic, batak, tirhuta, telugu, modi, khmer, tagalog, devanagari, tai-tham, sundanese, duployan, chakma, hanunoo, pahawh-hmong, sinhala, mende-kikakui, javanese, kharoshthi, gujarati, tifinagh, rejang, sogdian, buginese, manichaean, math, tai-viet, lepcha, ahom, miao, syriac, mongolian, elbasan, kayah-li, osage, armenian, canadian-aboriginal, music, cham, saurashtra, soyombo, new-tai-lue, yi, brahmi, myanmar, thaana, warang-citi, mandaic, gurmukhi, masaram-gondi, psalter-pahlavi, adlam, tamil, hanifi-rohingya, siddham, marchen, caucasian-albanian, hebrew, tibetan, dogra, coptic, tai-le, newa, bassa-vah, oriya, balinese, malayalam, meetei-mayek, khojki, syloti-nagri, grantha, mahajani, takri, gunjala-gondi, limbu, lao, thai
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -202,13 +202,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- l + f
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- .notdef.001
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -270,7 +263,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: J	Contours detected: 4	Expected: 1
 
-	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
+	- Glyph name: K	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: L	Contours detected: 2	Expected: 1
 
@@ -540,7 +533,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 5	Expected: 2 or 3
+	- Glyph name: uni0136	Contours detected: 4	Expected: 2 or 3
 
 	- Glyph name: uni0137	Contours detected: 4	Expected: 2 or 3
 
@@ -774,7 +767,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gcaron	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: uni01E8	Contours detected: 5	Expected: 2
+	- Glyph name: uni01E8	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni01E9	Contours detected: 4	Expected: 2
 
@@ -1398,7 +1391,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Jcircumflex	Contours detected: 5	Expected: 2
 
-	- Glyph name: K	Contours detected: 4	Expected: 1 or 2
+	- Glyph name: K	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: L	Contours detected: 2	Expected: 1
 
@@ -1744,7 +1737,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0123	Contours detected: 6	Expected: 3 or 4
 
-	- Glyph name: uni0136	Contours detected: 5	Expected: 2 or 3
+	- Glyph name: uni0136	Contours detected: 4	Expected: 2 or 3
 
 	- Glyph name: uni0137	Contours detected: 4	Expected: 2 or 3
 
@@ -1860,7 +1853,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01E5	Contours detected: 5	Expected: 2
 
-	- Glyph name: uni01E8	Contours detected: 5	Expected: 2
+	- Glyph name: uni01E8	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni01E9	Contours detected: 4	Expected: 2
 
@@ -2339,7 +2332,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Euro (U+20AC): L<<9.0,312.0>--<38.0,311.0>> -> L<<38.0,311.0>--<78.0,311.0>>
 
-	* M (U+004D): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
+	* M (U+004D): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<612.0,628.0>>
 
 	* b (U+0062): L<<45.0,26.0>--<45.0,70.0>> -> L<<45.0,70.0>--<40.0,665.0>>
 
@@ -2389,7 +2382,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni018F (U+018F): L<<465.0,330.0>--<451.0,330.0>> -> L<<451.0,330.0>--<126.0,336.0>>
 
-	* uni019C (U+019C): L<<604.0,84.0>--<604.0,385.0>> -> L<<604.0,385.0>--<603.0,397.0>>
+	* uni019C (U+019C): L<<612.0,72.0>--<604.0,385.0>> -> L<<604.0,385.0>--<603.0,397.0>>
 
 	* uni01A5 (U+01A5): L<<40.0,122.0>--<42.0,419.0>> -> L<<42.0,419.0>--<42.0,446.0>>
 
@@ -2413,11 +2406,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E05 (U+1E05): L<<45.0,26.0>--<45.0,70.0>> -> L<<45.0,70.0>--<40.0,665.0>>
 
-	* uni1E3E (U+1E3E): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
+	* uni1E3E (U+1E3E): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<612.0,628.0>>
 
-	* uni1E40 (U+1E40): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
+	* uni1E40 (U+1E40): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<612.0,628.0>>
 
-	* uni1E42 (U+1E42): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<604.0,616.0>>
+	* uni1E42 (U+1E42): L<<603.0,303.0>--<604.0,315.0>> -> L<<604.0,315.0>--<612.0,628.0>>
 
 	* uni1E55 (U+1E55): L<<40.0,122.0>--<42.0,419.0>> -> L<<42.0,419.0>--<42.0,446.0>>
 
@@ -2479,37 +2472,55 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* A (U+0041): L<<80.0,304.0>--<81.0,180.0>>
+	* A (U+0041): L<<74.0,304.0>--<75.0,180.0>>
 
 	* AE (U+00C6): L<<306.0,180.0>--<307.0,304.0>>
 
-	* Aacute (U+00C1): L<<80.0,304.0>--<81.0,180.0>>
+	* Aacute (U+00C1): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Abreve (U+0102): L<<80.0,304.0>--<81.0,180.0>>
+	* Abreve (U+0102): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Acircumflex (U+00C2): L<<80.0,304.0>--<81.0,180.0>>
+	* Acircumflex (U+00C2): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Adieresis (U+00C4): L<<80.0,304.0>--<81.0,180.0>>
+	* Adieresis (U+00C4): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Agrave (U+00C0): L<<80.0,304.0>--<81.0,180.0>>
+	* Agrave (U+00C0): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Amacron (U+0100): L<<80.0,304.0>--<81.0,180.0>>
+	* Amacron (U+0100): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Aogonek (U+0104): L<<80.0,304.0>--<81.0,180.0>>
+	* Aogonek (U+0104): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Aring (U+00C5): L<<80.0,304.0>--<81.0,180.0>>
+	* Aring (U+00C5): L<<74.0,304.0>--<75.0,180.0>>
 
-	* Atilde (U+00C3): L<<80.0,304.0>--<81.0,180.0>>
+	* Atilde (U+00C3): L<<74.0,304.0>--<75.0,180.0>>
 
-	* D (U+0044): L<<76.0,308.0>--<75.0,60.0>>
+	* D (U+0044): L<<76.0,322.0>--<75.0,84.0>>
 
-	* Dcaron (U+010E): L<<76.0,308.0>--<75.0,60.0>>
+	* Dcaron (U+010E): L<<76.0,322.0>--<75.0,84.0>>
 
 	* Dcroat (U+0110): L<<105.0,323.0>--<104.0,94.0>>
 
-	* Dmacronbelow (U+1E0E): L<<76.0,308.0>--<75.0,60.0>>
+	* Dmacronbelow (U+1E0E): L<<76.0,322.0>--<75.0,84.0>>
 
-	* Dtail (U+0189): L<<80.0,308.0>--<79.0,60.0>>
+	* Dtail (U+0189): L<<80.0,315.0>--<79.0,84.0>>
+
+	* E (U+0045): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Eacute (U+00C9): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Ecaron (U+011A): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Ecircumflex (U+00CA): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Edieresis (U+00CB): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Edotaccent (U+0116): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Egrave (U+00C8): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Emacron (U+0112): L<<69.0,298.0>--<70.0,36.0>>
+
+	* Eogonek (U+0118): L<<69.0,298.0>--<70.0,36.0>>
 
 	* Eth (U+00D0): L<<105.0,323.0>--<104.0,94.0>>
 
@@ -2653,7 +2664,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0180 (U+0180): L<<94.0,451.0>--<422.0,450.0>>
 
-	* uni018A (U+018A): L<<166.0,308.0>--<165.0,60.0>>
+	* uni018A (U+018A): L<<166.0,322.0>--<165.0,84.0>>
+
+	* uni018E (U+018E): L<<311.0,36.0>--<312.0,298.0>>
 
 	* uni0190 (U+0190): L<<368.0,666.0>--<136.0,665.0>>
 
@@ -2669,11 +2682,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni01B2 (U+01B2): L<<77.0,663.0>--<79.0,431.0>>
 
-	* uni01CD (U+01CD): L<<80.0,304.0>--<81.0,180.0>>
+	* uni01CD (U+01CD): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni01DE (U+01DE): L<<80.0,304.0>--<81.0,180.0>>
+	* uni01DE (U+01DE): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni01E0 (U+01E0): L<<80.0,304.0>--<81.0,180.0>>
+	* uni01E0 (U+01E0): L<<74.0,304.0>--<75.0,180.0>>
 
 	* uni01E2 (U+01E2): L<<306.0,180.0>--<307.0,304.0>>
 
@@ -2681,9 +2694,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni01F4 (U+01F4): L<<368.0,0.0>--<152.0,-1.0>>
 
-	* uni0200 (U+0200): L<<80.0,304.0>--<81.0,180.0>>
+	* uni0200 (U+0200): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni0202 (U+0202): L<<80.0,304.0>--<81.0,180.0>>
+	* uni0202 (U+0202): L<<74.0,304.0>--<75.0,180.0>>
+
+	* uni0204 (U+0204): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni0206 (U+0206): L<<69.0,298.0>--<70.0,36.0>>
 
 	* uni0210 (U+0210): L<<49.0,337.0>--<50.0,654.0>>
 
@@ -2695,7 +2712,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni021F (U+021F): L<<457.0,346.0>--<455.0,18.0>>
 
-	* uni0226 (U+0226): L<<80.0,304.0>--<81.0,180.0>>
+	* uni0226 (U+0226): L<<74.0,304.0>--<75.0,180.0>>
+
+	* uni0228 (U+0228): L<<69.0,298.0>--<70.0,36.0>>
 
 	* uni023A (U+023A): L<<103.0,304.0>--<104.0,180.0>>
 
@@ -2751,7 +2770,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1D7D (U+1D7D): L<<95.0,213.0>--<94.0,-54.0>>
 
-	* uni1E00 (U+1E00): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1E00 (U+1E00): L<<74.0,304.0>--<75.0,180.0>>
 
 	* uni1E03 (U+1E03): L<<409.0,-1.0>--<160.0,0.0>>
 
@@ -2765,7 +2784,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E05 (U+1E05): L<<94.0,451.0>--<422.0,450.0>>
 
-	* uni1E0A (U+1E0A): L<<76.0,308.0>--<75.0,60.0>>
+	* uni1E0A (U+1E0A): L<<76.0,322.0>--<75.0,84.0>>
 
 	* uni1E0B (U+1E0B): L<<109.0,33.0>--<348.0,34.0>>
 
@@ -2777,7 +2796,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E0B (U+1E0B): L<<65.0,450.0>--<383.0,451.0>>
 
-	* uni1E0C (U+1E0C): L<<76.0,308.0>--<75.0,60.0>>
+	* uni1E0C (U+1E0C): L<<76.0,322.0>--<75.0,84.0>>
 
 	* uni1E0D (U+1E0D): L<<109.0,33.0>--<348.0,34.0>>
 
@@ -2789,7 +2808,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E0D (U+1E0D): L<<65.0,450.0>--<383.0,451.0>>
 
-	* uni1E10 (U+1E10): L<<76.0,308.0>--<75.0,60.0>>
+	* uni1E10 (U+1E10): L<<76.0,322.0>--<75.0,84.0>>
 
 	* uni1E11 (U+1E11): L<<109.0,33.0>--<348.0,34.0>>
 
@@ -2801,7 +2820,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E11 (U+1E11): L<<65.0,450.0>--<383.0,451.0>>
 
-	* uni1E12 (U+1E12): L<<76.0,308.0>--<75.0,60.0>>
+	* uni1E12 (U+1E12): L<<76.0,322.0>--<75.0,84.0>>
 
 	* uni1E13 (U+1E13): L<<109.0,33.0>--<348.0,34.0>>
 
@@ -2812,6 +2831,16 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E13 (U+1E13): L<<429.0,665.0>--<432.0,27.0>>
 
 	* uni1E13 (U+1E13): L<<65.0,450.0>--<383.0,451.0>>
+
+	* uni1E14 (U+1E14): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1E16 (U+1E16): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1E18 (U+1E18): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1E1A (U+1E1A): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1E1C (U+1E1C): L<<69.0,298.0>--<70.0,36.0>>
 
 	* uni1E1E (U+1E1E): L<<178.0,360.0>--<177.0,72.0>>
 
@@ -2847,29 +2876,45 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E5C (U+1E5C): L<<84.0,650.0>--<82.0,384.0>>
 
-	* uni1EA0 (U+1EA0): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EA0 (U+1EA0): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EA2 (U+1EA2): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EA2 (U+1EA2): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EA4 (U+1EA4): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EA4 (U+1EA4): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EA6 (U+1EA6): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EA6 (U+1EA6): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EA8 (U+1EA8): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EA8 (U+1EA8): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EAA (U+1EAA): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EAA (U+1EAA): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EAC (U+1EAC): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EAC (U+1EAC): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EAE (U+1EAE): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EAE (U+1EAE): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EB0 (U+1EB0): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EB0 (U+1EB0): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EB2 (U+1EB2): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EB2 (U+1EB2): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EB4 (U+1EB4): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EB4 (U+1EB4): L<<74.0,304.0>--<75.0,180.0>>
 
-	* uni1EB6 (U+1EB6): L<<80.0,304.0>--<81.0,180.0>>
+	* uni1EB6 (U+1EB6): L<<74.0,304.0>--<75.0,180.0>>
+
+	* uni1EB8 (U+1EB8): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1EBA (U+1EBA): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1EBC (U+1EBC): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1EBE (U+1EBE): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1EC0 (U+1EC0): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1EC2 (U+1EC2): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1EC4 (U+1EC4): L<<69.0,298.0>--<70.0,36.0>>
+
+	* uni1EC6 (U+1EC6): L<<69.0,298.0>--<70.0,36.0>>
 
 	* uni2075 (U+2075): L<<43.0,619.0>--<44.0,759.0>>
 
@@ -2907,16 +2952,16 @@ The following glyphs do not have the recommended number of contours:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊ i̦̋ i̦̍ i̦̐ i̦̒ i̦̓ i̦᷄ i̦᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Ijo, Southeast (Latn, 2,471,000 speakers), Cicipu (Latn, 44,000 speakers), Avokaya (Latn, 100,000 speakers), Ekpeye (Latn, 226,000 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Nzakara (Latn, 50,000 speakers), Ma’di (Latn, 584,000 speakers), Dutch (Latn, 31,709,104 speakers), Bete-Bendi (Latn, 100,000 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Zapotec (Latn, 490,000 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Navajo (Latn, 166,319 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Fur (Latn, 1,230,163 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Mfumte (Latn, 79,000 speakers), Sar (Latn, 500,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Gulay (Latn, 250,478 speakers), Makaa (Latn, 221,000 speakers), Aghem (Latn, 38,843 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Basaa (Latn, 332,940 speakers), Koonzime (Latn, 40,000 speakers), Mango (Latn, 77,000 speakers), Dan (Latn, 1,099,244 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Bafut (Latn, 158,146 speakers), Ngbaka (Latn, 1,020,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Mfumte (Latn, 79,000 speakers), Gulay (Latn, 250,478 speakers), Bafut (Latn, 158,146 speakers), Dan (Latn, 1,099,244 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dii (Latn, 71,000 speakers), Sar (Latn, 500,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mango (Latn, 77,000 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Kom (Latn, 360,685 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 2 | 0 | 1 | 8 | 124 | 8 | 117 | 0 |
+| 2 | 0 | 1 | 7 | 124 | 8 | 118 | 0 |
 | 1% | 0% | 0% | 3% | 48% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
