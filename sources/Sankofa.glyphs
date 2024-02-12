@@ -1,9 +1,6 @@
 {
-.appVersion = "3237";
+.appVersion = "3239";
 .formatVersion = 3;
-DisplayStrings = (
-"IĲ"
-);
 axes = (
 {
 name = Weight;
@@ -31347,7 +31344,7 @@ pos = (154,-136);
 ref = dotaccentcomb;
 },
 {
-pos = (339,-314);
+pos = (131,-58);
 ref = macroncomb;
 }
 );
