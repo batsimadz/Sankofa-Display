@@ -1,5 +1,5 @@
 {
-.appVersion = "3237";
+.appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
 "ɋ"
@@ -37,16 +37,7 @@ value = BM86;
 },
 {
 name = "meta Table";
-value = (
-{
-data = en;
-tag = dlng;
-},
-{
-data = "basiceng , iu-Cans, Zmth, Zsym";
-tag = slng;
-}
-);
+value = "{\012    data = “en”;\012    tag = dlng;\012},\012{\012    data = \"basiceng, iu-Cans, Zmth, Zsym\";\012    tag = slng;\012}";
 }
 );
 date = "2023-10-02 05:34:29 +0000";
@@ -31334,19 +31325,22 @@ unicode = 559;
 },
 {
 glyphname = odotaccentmacron;
-lastChange = "2024-02-10 07:35:41 +0000";
+lastChange = "2024-02-12 12:04:17 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = o;
 },
 {
+alignment = -1;
 pos = (154,-136);
 ref = dotaccentcomb;
 },
 {
+alignment = -1;
 pos = (248,-194);
 ref = macroncomb;
 }
@@ -67274,16 +67268,7 @@ axesValues = (
 customParameters = (
 {
 name = "meta Table";
-value = (
-{
-data = en;
-tag = dlng;
-},
-{
-data = "iu-Cans, Zmth, Zsym";
-tag = slng;
-}
-);
+value = "{\012    data = “en”;\012    tag = dlng;\012},\012{\012    data = \"basiceng, iu-Cans, Zmth, Zsym\";\012    tag = slng;\012}";
 }
 );
 instanceInterpolations = {
