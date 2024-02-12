@@ -37,7 +37,7 @@ value = BM86;
 },
 {
 name = "meta Table";
-value = "{\012    data = “en”;\012    tag = dlng;\012},\012{\012    data = \"basiceng, iu-Cans, Zmth, Zsym\";\012    tag = slng;\012}";
+value = "{\012    data = "en";\012    tag = dlng;\012},\012{\012    data = \"basiceng, iu-Cans, Zmth, Zsym\";\012    tag = slng;\012}";
 }
 );
 date = "2023-10-02 05:34:29 +0000";
@@ -67268,7 +67268,7 @@ axesValues = (
 customParameters = (
 {
 name = "meta Table";
-value = "{\012    data = “en”;\012    tag = dlng;\012},\012{\012    data = \"basiceng, iu-Cans, Zmth, Zsym\";\012    tag = slng;\012}";
+value = "{\012    data = "en";\012    tag = dlng;\012},\012{\012    data = \"basiceng, iu-Cans, Zmth, Zsym\";\012    tag = slng;\012}";
 }
 );
 instanceInterpolations = {
