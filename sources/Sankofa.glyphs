@@ -36,7 +36,7 @@ value = BM86;
 name = "meta Table";
 value = (
 {
-data = en-Latn;
+data = "swh-Latn, en-Latn";
 tag = dlng;
 },
 {
@@ -67273,7 +67273,7 @@ customParameters = (
 name = "meta Table";
 value = (
 {
-data = en-Latn;
+data = "swh-Latn, en-Latn";
 tag = dlng;
 },
 {
