@@ -40,7 +40,7 @@ data = Latn;
 tag = dlng;
 },
 {
-data = Latn;
+data = Latn,Cyrl;
 tag = slng;
 }
 );
@@ -67277,7 +67277,7 @@ data = Latn;
 tag = dlng;
 },
 {
-data = Latn;
+data = Latn,Cyrl;
 tag = slng;
 }
 );
