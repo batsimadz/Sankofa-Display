@@ -1,6 +1,4 @@
 *~
-venv
-venv-test
 build.stamp
 proof
 node_modules
