@@ -2,7 +2,7 @@
 .appVersion = "3239";
 .formatVersion = 3;
 DisplayStrings = (
-"$  ₴",
+"$ ₴",
 "₺"
 );
 axes = (
