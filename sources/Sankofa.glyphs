@@ -46,11 +46,11 @@ name = "meta Table";
 value = (
 {
 data = latn;
-tag = dlng;
+tag = slng;
 },
 {
-data = latn;
-tag = slng;
+data = "en-latn, latn";
+tag = dlng;
 }
 );
 },
