@@ -7,7 +7,7 @@ DisplayStrings = (
 fi
 if
 fl
-lf
+lf flfffiif
 il"
 );
 axes = (
@@ -53,6 +53,14 @@ data = latn;
 tag = slng;
 }
 );
+},
+{
+name = "Use Extension Kerning";
+value = 1;
+},
+{
+name = "Keep Kerning in one Lookup";
+value = 1;
 }
 );
 date = "2023-10-02 05:34:29 +0000";
@@ -324,11 +332,6 @@ automatic = 1;
 code = "sub zero by zero.zero;
 ";
 tag = zero;
-},
-{
-automatic = 1;
-code = "";
-tag = kern;
 }
 );
 fontMaster = (
@@ -26013,7 +26016,7 @@ unicode = 441;
 glyphname = f;
 kernLeft = f;
 kernRight = f;
-lastChange = "2024-02-19 16:42:21 +0000";
+lastChange = "2024-02-19 17:11:35 +0000";
 layers = (
 {
 anchors = (
@@ -29144,7 +29147,7 @@ unicode = 42817;
 glyphname = l;
 kernLeft = l;
 kernRight = l;
-lastChange = "2024-02-19 16:42:32 +0000";
+lastChange = "2024-02-19 17:10:57 +0000";
 layers = (
 {
 anchors = (
@@ -67360,43 +67363,28 @@ name = Regular;
 );
 kerningLTR = {
 m01 = {
-"@MMK_L_A" = {
-"@MMK_R_V" = -90;
-};
 "@MMK_L_I" = {
 "@MMK_R_0" = 40;
-"@MMK_R_D" = -50;
 "@MMK_R_I" = -50;
 "@MMK_R_T" = -50;
-};
-"@MMK_L_T" = {
-"@MMK_R_0" = -50;
 };
 "@MMK_L_V" = {
 "@MMK_R_0" = -60;
 "@MMK_R_A" = -80;
 "@MMK_R_T" = -80;
-"@MMK_R_V" = -90;
 };
 "@MMK_L_f" = {
 "@MMK_R_f" = 10;
+"@MMK_R_l" = 20;
+};
+"@MMK_L_l" = {
+"@MMK_R_f" = -20;
 };
 A = {
-"@MMK_R_v" = -80;
 N = 0;
 };
 B = {
 "@MMK_R_a" = 30;
-};
-f = {
-l = 20;
-};
-i = {
-"@MMK_R_f" = 10;
-l = 10;
-};
-l = {
-f = -20;
 };
 one = {
 "@MMK_R_0" = -40;
