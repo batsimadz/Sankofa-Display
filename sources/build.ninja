@@ -55,22 +55,22 @@ build instance_ufos/SankofaDisplay-Regular.ufo.json: instantiateUfo $
 build ../fonts/webfonts/SankofaDisplay-Regular.woff2: compress $
     ../fonts/ttf/SankofaDisplay-Regular.ttf
   operation = compress
-# Generating /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp2eqidmqf
-build /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp2eqidmqf: $
+# Generating /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp70zz890t
+build /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp70zz890t: $
     buildTTF instance_ufos/SankofaDisplay-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpzhumhuhw
-build /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpzhumhuhw: $
-    autohint /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp2eqidmqf
+# Generating /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpdvpfx697
+build /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpdvpfx697: $
+    autohint /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp70zz890t
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/SankofaDisplay-Regular.ttf
 build ../fonts/ttf/SankofaDisplay-Regular.ttf: fix $
-    /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpzhumhuhw
+    /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpdvpfx697
   operation = fix
   args = 
 default ../fonts/webfonts/SankofaDisplay-Regular.woff2
