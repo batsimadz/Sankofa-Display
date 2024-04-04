@@ -1,0 +1,76 @@
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = '/Users/MAC008702/Documents/GitHub/Sankofa Display $
+      Font/Sankofa-Display-Project/venv/bin/python3.11' -m $
+      gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = '/Users/MAC008702/Documents/GitHub/Sankofa Display $
+      Font/Sankofa-Display-Project/venv/bin/python3.11' -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = '/Users/MAC008702/Documents/GitHub/Sankofa Display $
+      Font/Sankofa-Display-Project/venv/bin/python3.11' -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# fix: Run gftools-fix
+rule fix
+  command = '/Users/MAC008702/Documents/GitHub/Sankofa Display $
+      Font/Sankofa-Display-Project/venv/bin/python3.11' -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = '/Users/MAC008702/Documents/GitHub/Sankofa Display $
+      Font/Sankofa-Display-Project/venv/bin/python3.11' -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# copy: Copy a file
+rule copy
+  command = '/Users/MAC008702/Documents/GitHub/Sankofa Display $
+      Font/Sankofa-Display-Project/venv/bin/python3.11' -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating instance_ufos/SankofaDisplay-Regular.ufo.json
+build instance_ufos/SankofaDisplay-Regular.ufo.json: instantiateUfo $
+    Sankofa.glyphs
+  operation = instantiateUfo
+  instance_name = Sankofa Display Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/webfonts/SankofaDisplay-Regular.woff2
+build ../fonts/webfonts/SankofaDisplay-Regular.woff2: compress $
+    ../fonts/ttf/SankofaDisplay-Regular.ttf
+  operation = compress
+# Generating /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp2eqidmqf
+build /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp2eqidmqf: $
+    buildTTF instance_ufos/SankofaDisplay-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpzhumhuhw
+build /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpzhumhuhw: $
+    autohint /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmp2eqidmqf
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/SankofaDisplay-Regular.ttf
+build ../fonts/ttf/SankofaDisplay-Regular.ttf: fix $
+    /var/folders/k2/7h17wysn40g44v_5dly171140000gp/T/tmpzhumhuhw
+  operation = fix
+  args = 
+default ../fonts/webfonts/SankofaDisplay-Regular.woff2
