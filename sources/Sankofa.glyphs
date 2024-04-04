@@ -2,12 +2,7 @@
 .appVersion = "3241";
 .formatVersion = 3;
 DisplayStrings = (
-"̤",
-"",
-"ᵻ/smallIstrokeapostrophe",
-"Ꟈ",
-"ꟈ",
-"̍"
+""
 );
 classes = (
 {
@@ -21959,7 +21954,7 @@ unicode = 618;
 glyphname = a;
 kernLeft = a;
 kernRight = u;
-lastChange = "2024-03-24 11:12:39 +0000";
+lastChange = "2024-04-04 17:25:33 +0000";
 layers = (
 {
 anchors = (
@@ -46924,7 +46919,7 @@ unicode = 8320;
 },
 {
 glyphname = oneinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -46943,7 +46938,7 @@ unicode = 8321;
 },
 {
 glyphname = twoinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -46962,7 +46957,7 @@ unicode = 8322;
 },
 {
 glyphname = threeinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -46981,7 +46976,7 @@ unicode = 8323;
 },
 {
 glyphname = fourinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -47000,7 +46995,7 @@ unicode = 8324;
 },
 {
 glyphname = fiveinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -47019,7 +47014,7 @@ unicode = 8325;
 },
 {
 glyphname = sixinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -47038,7 +47033,7 @@ unicode = 8326;
 },
 {
 glyphname = seveninferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -47057,7 +47052,7 @@ unicode = 8327;
 },
 {
 glyphname = eightinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -47076,7 +47071,7 @@ unicode = 8328;
 },
 {
 glyphname = nineinferior;
-lastChange = "2024-03-10 13:28:59 +0000";
+lastChange = "2024-04-04 17:26:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -71716,7 +71711,7 @@ X = -20;
 "@MMK_R_0" = -60;
 "@MMK_R_A" = -80;
 "@MMK_R_T" = -80;
-"@MMK_R_a" = -70;
+"@MMK_R_a" = 20;
 "@MMK_R_f" = -20;
 y = -60;
 };
