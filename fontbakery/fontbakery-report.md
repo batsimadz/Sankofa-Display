@@ -9,16 +9,16 @@ fontbakery version: 0.11.2
 
 | Language | FAIL messages |
 | :--- | :--- |
-| kkj_Latn (Kako) | Shaper didn't attach uni0327 to uni025B |
+| kkj_Latn (Kako) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0327 to uni025B |
 | dnj_Latn (Dan) | Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏ |
-|  ^  | Shaper didn't attach uni030B to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper produced a .notdef |
 |  ^  | Shaper didn't attach uni030F to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
@@ -27,19 +27,19 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni030B to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper produced a .notdef |
-| nyb_Latn (Nyangbo) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| nyb_Latn (Nyangbo) | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| dur_Latn (Dii) | Shaper didn't attach gravecomb to uni0259 |
+| dur_Latn (Dii) | Shaper didn't attach uni0327 to uni0259 |
+|  ^  | Shaper didn't attach acutecomb to uni0327 |
+|  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0327 to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni0327 |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0327 to uni0259 |
-|  ^  | Shaper didn't attach uni0327 to uni0259 |
-|  ^  | Shaper didn't attach acutecomb to uni0327 |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0327 to uni0259 |
@@ -78,28 +78,28 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to oe |
 |  ^  | Shaper didn't attach gravecomb to oe |
 |  ^  | Shaper didn't attach uni0302 to oe |
-| ee_Latn (Ewe) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| ee_Latn (Ewe) | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 | ln_Latn (Lingala) | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
 | mgo_Latn (Metaʼ) | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
-| sbd_Latn (Southern Samo) | Shaper didn't attach gravecomb to uni0259 |
+| sbd_Latn (Southern Samo) | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni025B |
-|  ^  | Shaper didn't attach uni0308 to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0308 to uni0259 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
@@ -108,35 +108,35 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach uni0308 to uni025B |
 |  ^  | Shaper didn't attach uni0308 to uni0259 |
-| ksf_Latn (Bafia) | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni01DD |
+| ksf_Latn (Bafia) | Shaper didn't attach acutecomb to uni01DD |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni01DD |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-| nnh_Latn (Ngiemboon) | Shaper didn't attach uni030C to uni025B |
+| nnh_Latn (Ngiemboon) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
-| fan_Latn (Fang) | Some base glyphs were missing: W̤, w̤ |
-|  ^  | Some mark glyphs were missing: ◌̤ |
-|  ^  | Shaper produced a .notdef |
-|  ^  | Shaper produced a .notdef |
+| fan_Latn (Fang) | Shaper didn't attach uni0324 to w |
+|  ^  | Shaper didn't attach uni0324 to W |
+|  ^  | Shaper didn't attach uni0324 to w |
+|  ^  | Shaper didn't attach uni0324 to W |
 | etx_Latn (Iten) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-| tuz_Latn (Turka) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni01DD |
+| tuz_Latn (Turka) | Shaper didn't attach tildecomb to uni01DD |
+|  ^  | Shaper didn't attach acutecomb to uni01DD |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni01DD |
+|  ^  | Shaper didn't attach gravecomb to uni01DD |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni01DD |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni01DD |
+|  ^  | Shaper didn't attach tildecomb to uni01DD |
 |  ^  | Shaper didn't attach tildecomb to uni01DD |
 |  ^  | Shaper didn't attach gravecomb to uni01DD |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
@@ -152,10 +152,10 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach tildecomb to uni01DD |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| agq_Latn (Aghem) | Shaper didn't attach uni0304 to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
+| agq_Latn (Aghem) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
@@ -164,14 +164,14 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-| lob_Latn (Lobi) | Shaper didn't attach tildecomb to uni01DD |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
+| lob_Latn (Lobi) | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni01DD |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni01DD |
 | mor_Latn (Moro) | Some base glyphs were missing: Ꟈ, ꟈ |
 |  ^  | Shaper produced a .notdef |
-| vai_Latn (Vai (Latin)) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| vai_Latn (Vai (Latin)) | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 | din_Latn (Dinka) | Shaper didn't attach uni0308 to uni025B |
@@ -179,26 +179,26 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-| dnj_Latn_LR (Dan) | Shaper didn't attach tildecomb to uni025B |
+| dnj_Latn_LR (Dan) | Shaper didn't attach acutecomb to uniA78D |
+|  ^  | Shaper didn't attach tildecomb to uni01DD |
+|  ^  | Shaper didn't attach gravecomb to uni0265 |
+|  ^  | Shaper didn't attach acutecomb to uni01DD |
+|  ^  | Shaper didn't attach uni0302 to uni0265 |
+|  ^  | Shaper didn't attach uni0302 to uni01DD |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uniA78D |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni01DD |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uniA78D |
-|  ^  | Shaper didn't attach tildecomb to uni0265 |
-|  ^  | Shaper didn't attach uni0302 to uni01DD |
-|  ^  | Shaper didn't attach uni0302 to uni0265 |
-|  ^  | Shaper didn't attach gravecomb to uni0265 |
-|  ^  | Shaper didn't attach acutecomb to uniA78D |
-|  ^  | Shaper didn't attach tildecomb to uni01DD |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni01DD |
-|  ^  | Shaper didn't attach gravecomb to uniA78D |
 |  ^  | Shaper didn't attach tildecomb to uniA78D |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni01DD |
+|  ^  | Shaper didn't attach tildecomb to uni0265 |
+|  ^  | Shaper didn't attach tildecomb to uni01DD |
+|  ^  | Shaper didn't attach tildecomb to uni01DD |
 |  ^  | Shaper didn't attach tildecomb to uni01DD |
 |  ^  | Shaper didn't attach acutecomb to uni0265 |
-|  ^  | Shaper didn't attach tildecomb to uni01DD |
 | neb_Latn (Toura) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
@@ -206,65 +206,65 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 | lol_Latn (Mongo) | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
-| ozm_Latn (Koonzime) | Shaper didn't attach uni030C to oe |
-|  ^  | Shaper didn't attach uni0302 to oe |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
+| ozm_Latn (Koonzime) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to oe |
-|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni0302 to oe |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni030C to oe |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to oe |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to oe |
 |  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach uni030C to oe |
-| sld_Latn (Sissala) | Shaper didn't attach tildecomb to uni025B |
+| sld_Latn (Sissala) | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+| pnz_Latn (Pana (Central African Republic)) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0327 |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-| pnz_Latn (Pana (Central African Republic)) | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0327 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0327 |
 |  ^  | Shaper didn't attach uni0327 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0327 |
 |  ^  | Shaper didn't attach uni0327 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0327 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach uni0327 to uni025B |
-|  ^  | Shaper didn't attach uni0327 to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni0327 |
-|  ^  | Shaper didn't attach uni0327 to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni0327 |
 |  ^  | Shaper didn't attach uni0327 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0327 |
-|  ^  | Shaper didn't attach uni0327 to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni0327 |
-| lnl_Latn (South Central Banda) | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach uni0308 to uni025B |
+| lnl_Latn (South Central Banda) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach uni0308 to uni0259 |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0308 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach uni0308 to uni0259 |
-| bas_Latn (Basaa) | Shaper didn't attach uni1DC7 to uni025B |
+| bas_Latn (Basaa) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni1DC7 to uni025B |
 |  ^  | Shaper didn't attach uni1DC6 to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni0304 to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
@@ -274,21 +274,21 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni1DC7 to uni025B |
 | bfo_Latn (Malba Birifor) | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| yba_Latn (Yala) | Shaper didn't attach uni030D to A |
+| yba_Latn (Yala) | Shaper didn't attach uni030D to dotlessi |
 |  ^  | Shaper didn't attach uni030D to a |
-|  ^  | Shaper didn't attach uni030D to I |
-|  ^  | Shaper didn't attach uni030D to uni025B |
-|  ^  | Shaper didn't attach uni0304 to uni025B |
-|  ^  | Shaper didn't attach uni030D to uni0254 |
-|  ^  | Shaper didn't attach uni030D to dotlessi |
-|  ^  | Shaper didn't attach uni030D to o |
-|  ^  | Shaper didn't attach uni030D to uni0186 |
-|  ^  | Shaper didn't attach uni030D to e |
-|  ^  | Shaper didn't attach uni030D to u |
-|  ^  | Shaper didn't attach uni030D to O |
-|  ^  | Shaper didn't attach uni030D to E |
 |  ^  | Shaper didn't attach uni030D to uni0190 |
+|  ^  | Shaper didn't attach uni030D to uni0254 |
 |  ^  | Shaper didn't attach uni030D to U |
+|  ^  | Shaper didn't attach uni030D to O |
+|  ^  | Shaper didn't attach uni030D to uni025B |
+|  ^  | Shaper didn't attach uni030D to I |
+|  ^  | Shaper didn't attach uni030D to o |
+|  ^  | Shaper didn't attach uni030D to e |
+|  ^  | Shaper didn't attach uni030D to A |
+|  ^  | Shaper didn't attach uni030D to u |
+|  ^  | Shaper didn't attach uni030D to uni0186 |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
+|  ^  | Shaper didn't attach uni030D to E |
 |  ^  | Shaper didn't attach uni030D to a |
 |  ^  | Shaper didn't attach uni030D to A |
 |  ^  | Shaper didn't attach uni030D to e |
@@ -316,15 +316,15 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni0308 to uni0331 |
 |  ^  | Shaper didn't attach uni0331 to uni025B |
 |  ^  | Shaper didn't attach uni0308 to uni0331 |
-| byv_Latn (Medumba) | Shaper didn't attach gravecomb to uni0259 |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
+| byv_Latn (Medumba) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni2C6D |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni2C6D |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni2C6D |
-|  ^  | Shaper didn't attach gravecomb to uni2C6D |
 |  ^  | Shaper didn't attach gravecomb to uni2C6D |
 |  ^  | Shaper didn't attach uni0302 to uni2C6D |
 |  ^  | Shaper didn't attach uni030C to uni2C6D |
@@ -340,18 +340,18 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| lee_Latn (Lyélé) | Shaper didn't attach gravecomb to uni0259 |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
+| lee_Latn (Lyélé) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni030C to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
@@ -367,11 +367,11 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| nga_Latn (Ngbaka) | Shaper didn't attach tildecomb to uni025B |
+| nga_Latn (Ngbaka) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
@@ -416,17 +416,17 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 | kpe_Latn (Kpelle) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-| nmg_Latn (Kwasio) | Shaper didn't attach uni030C to uni025B |
-|  ^  | Shaper didn't attach uni0304 to uni01DD |
-|  ^  | Shaper didn't attach uni0302 to uni01DD |
-|  ^  | Shaper didn't attach uni0304 to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni01DD |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| nmg_Latn (Kwasio) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni01DD |
+|  ^  | Shaper didn't attach uni030C to uni01DD |
+|  ^  | Shaper didn't attach uni0302 to uni01DD |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni01DD |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni01DD |
 |  ^  | Shaper didn't attach uni0302 to uni01DD |
 |  ^  | Shaper didn't attach uni030C to uni01DD |
@@ -436,12 +436,12 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach uni0304 to uni025B |
 | bsq_Latn (Bassa) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
@@ -452,33 +452,33 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| gna_Latn (Kaansa) | Shaper didn't attach uni030C to uni025B |
+| gna_Latn (Kaansa) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| gvl_Latn (Gulay) | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
+| gvl_Latn (Gulay) | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 | ntm_Latn (Nateni) | Shaper didn't attach uni0330 to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni0330 |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni0330 to uni025B |
-|  ^  | Shaper didn't attach uni0330 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0330 |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0330 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni0330 to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0330 |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni0330 to uni025B |
 |  ^  | Shaper didn't attach uni0330 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni0330 |
 |  ^  | Shaper didn't attach uni0330 to uni025B |
@@ -487,12 +487,12 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach acutecomb to uni0330 |
 |  ^  | Shaper didn't attach uni0330 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0330 |
-| gkp_Latn (Kpelle, Guinea) | Shaper didn't attach gravecomb to uni0259 |
+| gkp_Latn (Kpelle, Guinea) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
@@ -520,18 +520,18 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni0328 to uni0254 |
 |  ^  | Shaper didn't attach uni0328 to uni0186 |
 |  ^  | Shaper didn't attach uni0328 to uni0186 |
-| jgo_Latn (Ngomba) | Shaper didn't attach uni0304 to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni025B |
+| jgo_Latn (Ngomba) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach uni0304 to uni025B |
-| tcd_Latn (Tafi) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| tcd_Latn (Tafi) | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
@@ -551,22 +551,22 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni030C to uni028A |
 |  ^  | Shaper didn't attach tildecomb to uni028A |
 |  ^  | Shaper didn't attach tildecomb to uni028A |
-| nfu_Latn (Mfumte) | Shaper didn't attach gravecomb to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni0259 |
+| nfu_Latn (Mfumte) | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni0259 |
-| mge_Latn (Mango) | Shaper didn't attach gravecomb to uni0259 |
+| mge_Latn (Mango) | Shaper didn't attach uni0330 to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0330 |
+|  ^  | Shaper didn't attach uni0330 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0330 to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0330 to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0330 |
-|  ^  | Shaper didn't attach uni0330 to uni0259 |
-|  ^  | Shaper didn't attach gravecomb to uni0330 |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
-|  ^  | Shaper didn't attach uni0330 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0330 to uni0259 |
@@ -584,8 +584,8 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni0304 to uni0330 |
 |  ^  | Shaper didn't attach uni0330 to uni0259 |
 |  ^  | Shaper didn't attach uni0304 to uni0330 |
-| ksp_Latn (Kabba) | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
+| ksp_Latn (Kabba) | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach uni0308 to uni0259 |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach uni0308 to uni0259 |
@@ -596,9 +596,9 @@ fontbakery version: 0.11.2
 |  ^  | Some mark glyphs were missing: ◌͟ |
 |  ^  | Shaper produced a .notdef |
 |  ^  | Shaper produced a .notdef |
-| nnw_Latn (Southern Nuni) | Shaper didn't attach gravecomb to uni0259 |
+| nnw_Latn (Southern Nuni) | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
@@ -611,9 +611,9 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
 | apd_Latn (Sudanese Arabic) | Some mark glyphs were missing: ◌͟ |
-| soy_Latn (Miyobe) | Shaper didn't attach tildecomb to uni025B |
+| soy_Latn (Miyobe) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
@@ -626,20 +626,20 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| grb_Latn (Grebo) | Shaper didn't attach uni0308 to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni025B |
+| grb_Latn (Grebo) | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni0308 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-| mcp_Latn (Makaa) | Shaper didn't attach uni0327 to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni0327 to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni0327 |
-|  ^  | Shaper didn't attach uni030C to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
+| mcp_Latn (Makaa) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0327 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni0327 |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni0259 |
+|  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
+|  ^  | Shaper didn't attach uni0327 to uni025B |
+|  ^  | Shaper didn't attach acutecomb to uni0327 |
 |  ^  | Shaper didn't attach uni0327 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0327 |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
@@ -669,14 +669,14 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| bax_Latn (Bamun, Latin) | Shaper didn't attach gravecomb to uni0259 |
+| bax_Latn (Bamun, Latin) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
@@ -689,14 +689,14 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni0304 to uni0259 |
 | gur_Latn (Frafra) | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| ewo_Latn (Ewondo) | Shaper didn't attach gravecomb to uni0259 |
+| ewo_Latn (Ewondo) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
@@ -705,29 +705,29 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
-| tbz_Latn (Ditammari) | Shaper didn't attach tildecomb to uni025B |
+| tbz_Latn (Ditammari) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+| dgi_Latn (Northern Dagara) | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-| dgi_Latn (Northern Dagara) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni025B |
-| fmp_Latn (Fe’fe’) | Shaper didn't attach gravecomb to uni0259 |
+| fmp_Latn (Fe’fe’) | Shaper didn't attach gravecomb to uni2C6D |
 |  ^  | Shaper didn't attach uni030C to uni2C6D |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
-|  ^  | Shaper didn't attach gravecomb to uni2C6D |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach uni0304 to uni2C6D |
 |  ^  | Shaper didn't attach uni0304 to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni2C6D |
 |  ^  | Shaper didn't attach acutecomb to uni2C6D |
 |  ^  | Shaper didn't attach gravecomb to uni2C6D |
@@ -737,11 +737,11 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach uni0304 to uni0259 |
-| box_Latn (Buamu) | Shaper didn't attach tildecomb to uni025B |
+| box_Latn (Buamu) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
@@ -757,16 +757,16 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-| goa_Latn (Guro) | Shaper didn't attach uni030C to uni025B |
+| goa_Latn (Guro) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
-| bqp_Latn (Bisã) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| bqp_Latn (Bisã) | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
@@ -775,18 +775,18 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-| biv_Latn (Birifor, Southern) | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach tildecomb to uni028A |
+| biv_Latn (Birifor, Southern) | Shaper didn't attach tildecomb to uni028A |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni028A |
 | myk_Latn (Mamara Senoufo) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-| mev_Latn (Mano) | Shaper didn't attach tildecomb to uni025B |
+| mev_Latn (Mano) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
@@ -808,14 +808,14 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni0304 to uni0330 |
 | bqv_Latn (Koro Wachi) | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| bfd_Latn (Bafut) | Shaper didn't attach gravecomb to uni0259 |
+| bfd_Latn (Bafut) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni025B |
@@ -836,23 +836,23 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| kzc_Latn (Bondoukou Kulango) | Shaper didn't attach tildecomb to uniA7B7 |
-|  ^  | Shaper didn't attach tildecomb to uniA7AE |
+| kzc_Latn (Bondoukou Kulango) | Shaper didn't attach tildecomb to uniA7AE |
+|  ^  | Shaper didn't attach tildecomb to uniA7B7 |
 |  ^  | Shaper didn't attach tildecomb to uniA7AE |
 |  ^  | Shaper didn't attach tildecomb to uniA7B7 |
-| ybb_Latn (Yemba) | Shaper didn't attach uni0304 to uni0259 |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
+| ybb_Latn (Yemba) | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach uni0304 to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0304 to uni0259 |
 |  ^  | Shaper didn't attach uni0308 to uni0259 |
-| bbj_Latn (Ghomala) | Shaper didn't attach gravecomb to uni0259 |
+| bbj_Latn (Ghomala) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni0259 |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
@@ -864,40 +864,40 @@ fontbakery version: 0.11.2
 | gej_Latn (Gen) | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni030C to uni025B |
-| ddn_Latn (Dendi) | Shaper didn't attach uni0304 to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| ddn_Latn (Dendi) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
+|  ^  | Shaper didn't attach uni0304 to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach uni0304 to uni025B |
-| bqc_Latn (Boko) | Shaper didn't attach tildecomb to uni025B |
+| bqc_Latn (Boko) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| kst_Latn (Winyé) | Shaper didn't attach tildecomb to uni025B |
+| kst_Latn (Winyé) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
 |  ^  | Shaper didn't attach tildecomb to uni025B |
-| blo_Latn (Anii) | Shaper didn't attach acutecomb to uni028A |
-|  ^  | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach gravecomb to uni01DD |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
+| blo_Latn (Anii) | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni01DD |
-|  ^  | Shaper didn't attach gravecomb to uni025B |
-|  ^  | Shaper didn't attach uni0302 to uni01DD |
 |  ^  | Shaper didn't attach uni0302 to uni028A |
+|  ^  | Shaper didn't attach acutecomb to uni028A |
+|  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni0302 to uni01DD |
+|  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni028A |
+|  ^  | Shaper didn't attach gravecomb to uni01DD |
 |  ^  | Shaper didn't attach acutecomb to uni01DD |
 |  ^  | Shaper didn't attach gravecomb to uni01DD |
 |  ^  | Shaper didn't attach uni0302 to uni01DD |
@@ -909,22 +909,22 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach uni0302 to uni028A |
 | dua_Latn (Duala) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-| sba_Latn (Ngambay) | Shaper didn't attach uni0330 to uni0259 |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
+| sba_Latn (Ngambay) | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach uni0330 to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0330 to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni01DD |
 |  ^  | Shaper didn't attach uni0330 to uni01DD |
 | dip_Latn (Dinka, Northeastern) | Shaper didn't attach uni0308 to uni025B |
 |  ^  | Shaper didn't attach uni0308 to uni025B |
-| mnf_Latn (Mundani) | Shaper didn't attach gravecomb to uni0259 |
-|  ^  | Shaper didn't attach uni0302 to uni0259 |
+| mnf_Latn (Mundani) | Shaper didn't attach uni0302 to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach uni0302 to uni0259 |
 |  ^  | Shaper didn't attach uni030C to uni0259 |
-| bum_Latn (Bulu) | Shaper didn't attach gravecomb to uni0259 |
-|  ^  | Shaper didn't attach acutecomb to uni0259 |
+| bum_Latn (Bulu) | Shaper didn't attach acutecomb to uni0259 |
+|  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach gravecomb to uni0259 |
 |  ^  | Shaper didn't attach acutecomb to uni0259 |
 | etu_Latn (Ejagham) | Shaper didn't attach uni0302 to uni0259 |
@@ -938,14 +938,15 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 | gov_Latn (Goo) | Some base glyphs were missing: Ɤ, Ɤ̀, Ɤ́, Ɤ̂ |
+|  ^  | Shaper didn't attach uni0302 to uni025B |
 |  ^  | Shaper produced a .notdef |
-| mdt_Latn (Mbere) | Some mark glyphs were missing: ◌̤ |
+| mdt_Latn (Mbere) | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper didn't attach acutecomb to uni025B |
-|  ^  | Shaper produced a .notdef |
+|  ^  | Shaper didn't attach uni0324 to w |
+|  ^  | Shaper didn't attach uni0324 to W |
 | bom_Latn (Berom) | Shaper didn't attach uni0302 to uni025B |
-|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
+|  ^  | Shaper didn't attach uni030C to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
 |  ^  | Shaper didn't attach acutecomb to uni025B |
 |  ^  | Shaper didn't attach gravecomb to uni025B |
@@ -1239,7 +1240,7 @@ fontbakery version: 0.11.2
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -1250,12 +1251,12 @@ fontbakery version: 0.11.2
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02E0 MODIFIER LETTER SMALL GAMMA: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, canadian-aboriginal, malayalam, tai-le, coptic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, syriac, tai-le, tifinagh, math, malayalam, old-permic, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -1265,14 +1266,15 @@ fontbakery version: 0.11.2
  * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
  * U+031B COMBINING HORN: not included in any glyphset definition
  * U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, gothic, tifinagh, cherokee
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, tifinagh, cherokee, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
@@ -1319,14 +1321,14 @@ fontbakery version: 0.11.2
  * U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition
  * U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition
  * U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
- * U+2195 UP DOWN ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math
+ * U+2195 UP DOWN ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+2205 EMPTY SET: try adding math
  * U+2206 INCREMENT: try adding math
@@ -1344,26 +1346,26 @@ fontbakery version: 0.11.2
  * U+25AA BLACK SMALL SQUARE: try adding symbols
  * U+25AB WHITE SMALL SQUARE: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: kannada, gurmukhi, sharada, rejang, khudawadi, symbols, thai, canadian-aboriginal, khojki, tai-le, buginese, math, miao, adlam, tifinagh, bengali, hanifi-rohingya, phags-pa, tagbanwa, armenian, masaram-gondi, tirhuta, kaithi, meetei-mayek, javanese, kayah-li, buhid, khmer, tibetan, newa, oriya, music, syloti-nagri, myanmar, osage, sinhala, kharoshthi, duployan, lepcha, siddham, gujarati, limbu, sundanese, marchen, mongolian, chakma, bassa-vah, bhaiksuki, yi, telugu, caucasian-albanian, syriac, takri, pahawh-hmong, psalter-pahlavi, soyombo, tamil, lao, hebrew, cham, tai-viet, balinese, warang-citi, gunjala-gondi, coptic, grantha, nko, brahmi, tai-tham, batak, elbasan, old-permic, dogra, zanabazar-square, mandaic, devanagari, new-tai-lue, sogdian, saurashtra, malayalam, mende-kikakui, ahom, hanunoo, manichaean, mahajani, thaana, tagalog, modi, wancho
+ * U+25CC DOTTED CIRCLE: try adding one of: modi, myanmar, khmer, bhaiksuki, nko, psalter-pahlavi, bassa-vah, mandaic, sinhala, math, tirhuta, mende-kikakui, tibetan, brahmi, chakma, elbasan, wancho, ahom, symbols, hanifi-rohingya, hebrew, siddham, kaithi, music, sharada, lao, gujarati, buhid, newa, duployan, thai, zanabazar-square, malayalam, syloti-nagri, kannada, warang-citi, armenian, mongolian, yi, gurmukhi, phags-pa, rejang, osage, kharoshthi, telugu, tamil, new-tai-lue, tai-tham, canadian-aboriginal, gunjala-gondi, khojki, tagbanwa, oriya, sogdian, pahawh-hmong, mahajani, saurashtra, tagalog, miao, batak, adlam, sundanese, dogra, balinese, coptic, caucasian-albanian, syriac, buginese, thaana, khudawadi, lepcha, tai-viet, meetei-mayek, soyombo, takri, manichaean, tai-le, cham, bengali, javanese, old-permic, hanunoo, grantha, limbu, kayah-li, tifinagh, devanagari, masaram-gondi, marchen
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -4308,11 +4310,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̢᷄ i̢᷅ i̢᷆ i̢᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅
+The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̢᷄ i̢᷅ i̢᷆ i̢᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Bete-Bendi (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), Avokaya (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Ma’di (Latn, 584,000 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Ekpeye (Latn, 226,000 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Cicipu (Latn, 44,000 speakers), Avokaya (Latn, 100,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nzakara (Latn, 50,000 speakers), Ma’di (Latn, 584,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Zapotec (Latn, 490,000 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Dii (Latn, 71,000 speakers), South Central Banda (Latn, 244,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Yala (Latn, 200,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Makaa (Latn, 221,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Koonzime (Latn, 40,000 speakers), Gulay (Latn, 250,478 speakers), Bafut (Latn, 158,146 speakers), Southern Kisi (Latn, 360,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Yala (Latn, 200,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Aghem (Latn, 38,843 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Sar (Latn, 500,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Koonzime (Latn, 40,000 speakers), Mundani (Latn, 34,000 speakers), Basaa (Latn, 332,940 speakers), Southern Kisi (Latn, 360,000 speakers), Gulay (Latn, 250,478 speakers), South Central Banda (Latn, 244,000 speakers), Nateni (Latn, 100,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
