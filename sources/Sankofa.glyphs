@@ -2,7 +2,7 @@
 .appVersion = "3241";
 .formatVersion = 3;
 DisplayStrings = (
-"ɤwẃ"
+"̤"
 );
 classes = (
 {
@@ -68720,6 +68720,24 @@ width = 145;
 }
 );
 unicode = 803;
+},
+{
+glyphname = dieresisbelowcomb;
+lastChange = "2024-04-04 15:38:17 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-40,-772);
+ref = dieresis;
+}
+);
+width = 232;
+}
+);
+unicode = 804;
 },
 {
 glyphname = ringbelowcomb;
