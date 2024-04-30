@@ -6,6 +6,11 @@ It emerged as a crucial component of the broader Sakofa Design System Project, w
 
 Website: https://www.sankofadisplay.com
 
+![Sample Image](documentation/bo-afrika.jpg)
+![Sample Image](documentation/woman.jpg)
+<img src="documentation/preview-1.jpg" width="65%"/><img src="documentation/preview-2.jpg" width="29.65%"/>
+<img src="documentation/preview-3.jpg" width="65%"/><img src="documentation/preview-4.jpg" width="29.65%"/>
+
 
 ## Inspiration
 
@@ -20,11 +25,6 @@ This stone-carved bird is the national emblem of Zimbabwe, appearing on the nati
 ### Zulu bead work & art ### 
 
 The vibrant Zulu traditional patterns add a colorful palette, creating a visually captivating and culturally resonant typeface that celebrates Africa’s geometric heritage in a concise and impactful manner.
-
-![Sample Image](documentation/bo-afrika.jpg)
-![Sample Image](documentation/woman.jpg)
-<img src="documentation/preview-1.jpg" width="65%"/><img src="documentation/preview-2.jpg" width="29.65%"/>
-<img src="documentation/preview-3.jpg" width="65%"/><img src="documentation/preview-4.jpg" width="29.65%"/>
 
 
 ## Thanks to
