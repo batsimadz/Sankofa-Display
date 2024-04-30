@@ -2,7 +2,7 @@
 
 # Sankofa Display
 
-It emerged as a crucial component of the broader Sakofa Design System Project, which advocates for cultural diversity and inclusivity in digital design. Sankofa Display encourages designers globally to draw from their own backgrounds and heritage for inspiration, empowering them to create distinct, culturally resonant designs. Batsi's embrace of his African heritage enabled him to contribute a typeface to Google Fonts that celebrates African culture in its entirety.
+The Sankofa Display font emerged as a crucial component of the broader Sakofa Design System Project, which advocates for cultural diversity and inclusivity in digital design. Sankofa Display encourages designers globally to draw from their own backgrounds and heritage for inspiration, empowering them to create distinct, culturally resonant designs. Batsi's embrace of his African heritage enabled him to contribute a typeface to Google Fonts that celebrates African culture in its entirety.
 
 Website: https://www.sankofadisplay.com
 
