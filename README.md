@@ -6,7 +6,7 @@ It emerged as a crucial component of the broader Sakofa Design System Project, w
 
 Website: https://www.sankofadisplay.com
 
-![Sample Image](documentation/bo-afrika.jpg)
+![Sample Image](documentation/bo-afrika-gif.gif)
 ![Sample Image](documentation/woman.jpg)
 <img src="documentation/preview-1.jpg" width="65%"/><img src="documentation/preview-2.jpg" width="29.65%"/>
 <img src="documentation/preview-3.jpg" width="65%"/><img src="documentation/preview-4.jpg" width="29.65%"/>
