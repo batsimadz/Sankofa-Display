@@ -23,7 +23,7 @@ The vibrant Zulu traditional patterns add a colorful palette, creating a visuall
 
 ![Sample Image](documentation/bo-afrika.jpg)
 ![Sample Image](documentation/woman.jpg)
-<img src="documentation/preview-1.jpg" width="65%"/><img src="documentation/preview-2.jpg" width="25%"/>
+<img src="documentation/preview-1.jpg" width="65%"/><img src="documentation/preview-2.jpg" width="30%"/>
 ![Sample Image](documentation/preview-3.jpg =75%) ![Sample Image](documentation/preview-4.jpg =25%)
 
 
