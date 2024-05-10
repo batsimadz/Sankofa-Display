@@ -9,7 +9,6 @@ Website: https://www.sankofadisplay.com
 ![Sample Image](documentation/bo-afrika-gif.gif)
 <img src="documentation/preview-1.jpg" width="65%"/><img src="documentation/preview-2.jpg" width="29.65%"/>
 <img src="documentation/preview-3.jpg" width="65%"/><img src="documentation/preview-4.jpg" width="29.65%"/>
-![Sample Image](documentation/woman.jpg)
 
 ## Inspiration
 
